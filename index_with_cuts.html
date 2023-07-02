@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meat Cooking Time Calculator</title>
+    <style>
+        button.meatType {
+            margin: 5px;
+        }
+        .active {
+            background-color: #ddd;
+        }
+
+        /* Tool */
+        .tool {display:inline-block;vertical-align:top;color:#eee;margin:15px auto 3.5vw auto;width:calc(100% - 40px);max-width:450px;border-radius: 3px;background: #1d1d1d;padding:35px 10px 40px 10px;}
+        .control-panel {max-width:300px;width:100%;margin:0 auto;}
+        .control-panel .inner {padding:0 10px;}
+        legend {text-align:left;margin: 17px 0 7px 0;}
+        .inputwrapper {display: inline-block;vertical-align: bottom;background: #eee;padding: 10px 25px;width: 70%;position:relative;}
+        input {-webkit-appearance: none; -moz-appearance: none; appearance: none;}
+        input:focus {outline:none;}
+        input[type="text"] {font-family:Verdana,sans-serif;background: #eee;color: #121212;vertical-align: bottom;height: 31px;border: 1px solid #eee;outline: none;font-size: 18px;text-align: center;width: 100%;}
+        .dollarsign {position: absolute;color: #121212;font-size: 18px;top: 50%;transform: translate(0,-50%);left: 10px;font-family: Verdana,sans-serif;}
+        .pctsign {position: absolute;color: #121212;font-size: 18px;top: 50%;transform: translate(0,-50%);right: 10px;font-family: Verdana,sans-serif;}
+        .minus, .plus {display: inline-block;cursor:pointer;vertical-align: bottom;background: #ddd;width: 15%;padding: 15px 0;}
+        .minus:hover, .plus:hover {background:#cfcfcf;}
+        .minus:active, .plus:active {background:#ddd;}
+        .minus {border-radius: 3px 0 0 3px;}
+        .plus {border-radius: 0 3px 3px 0;}
+        .minus img, .plus img {vertical-align: bottom;}
+        #calculate {display:block;margin:30px auto 0 auto;}
+        .tipimagewrapper {display:inline-block;margin:20px 3px;cursor:pointer;width:calc(25% - 6px);}
+        .tipimagewrapper img {background: rgba(255,255,255,0.15);padding: 10px;border-radius: 15px;cursor:pointer;width:100%;height:auto;transition-duration:0.2s;}
+        .tipimagewrapper img:hover {background: rgba(255,255,255,0.94);}
+        .tipimagewrapper img:active {background: rgba(255,255,255,0.15);}
+        .tiptext {display:block;margin-top: 2px;}
+        .prevent-select, .dollarsign, .pctsign, .minus, .plus, .minus img, .plus img {-webkit-user-select: none;-ms-user-select: none;user-select: none;}
+    </style>
+</head>
+<body>
+    <h1>Meat Cooking Time Calculator</h1>
+    <div class="control-panel">
+        <div class="inner">
+            <legend>Type of Meat:</legend>
+            <button type="button" class="meatType active" onclick="setMeatType(this,'chicken')">Chicken</button>
+            <button type="button" class="meatType" onclick="setMeatType(this,'beef')">Beef</button>
+            <button type="button" class="meatType" onclick="setMeatType(this,'pork')">Pork</button>
+            <button type="button" class="meatType" onclick="setMeatType(this,'lamb')">Lamb</button>
+        </div>
+
+        <div class="inner">
+            <legend>Cut:</legend>
+            <div id="cutButtons" class="cuts">
+		<button type="button" class="cut active" onclick="setCut(this,'whole')" data-meat="chicken">Whole</button>
+		<button type="button" class="cut" onclick="setCut(this,'breast')" data-meat="chicken">Breast</button>
+		<button type="button" class="cut" onclick="setCut(this,'thigh')" data-meat="chicken">Thigh</button>
+		<button type="button" class="cut" onclick="setCut(this,'steak')" data-meat="beef,pork,lamb">Steak</button>
+		<button type="button" class="cut" onclick="setCut(this,'roast')" data-meat="beef,pork,lamb">Roast</button>
+		<button type="button" class="cut" onclick="setCut(this,'ground')" data-meat="beef,pork,lamb">Ground</button>
+		<button type="button" class="cut" onclick="setCut(this,'chop')" data-meat="pork,lamb,beef">Chop</button>
+            </div>
+        </div>
+
+        <div class="inner">
+            <legend for="weight" style="margin-top:0;">Weight:</legend>
+            <div class="minus"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVAQAAAACBbJg7AAAAAnRSTlMAAQGU/a4AAAAVSURBVHgBY/j//wdB/I8ZhKF8whgA3gA8NUB7SXgAAAAASUVORK5CYII=" class="UCBxzb" data-atf="0" data-frt="0"></div>
+            <div class="inputwrapper"><input type="number" value="1" name="weight" step="0.1" id="weight" autocomplete="off"><div class="dollarsign">W</div></div>
+            <div class="plus"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVAQAAAACBbJg7AAAAAnRSTlMAAQGU/a4AAAAYSURBVHgBY/j//wd2fB4V/2EAYXRxrHoBqFQ6qzYXoroAAAAASUVORK5CYII=" class="UCBxzb" data-atf="0" data-frt="0"></div>
+        </div>
+
+        <div class="inner">
+            <legend for="unit">Unit:</legend>
+            <label><input type="radio" name="unit" value="kg" checked onchange="updateUnitSelection()">Kilograms</label>
+            <label><input type="radio" name="unit" value="lb" onchange="updateUnitSelection()">Pounds</label>
+        </div>
+
+        <div class="inner">
+            <legend for="temperature">Oven Temperature (Celsius):</legend>
+            <input id="temperature" type="number">
+        </div>
+
+        <a id="calculate" class="button" onclick="calculate()">Calculate</a>
+
+        <p id="result"></p>
+    </div>
+
+    <script>
+        var defaultTemperatures = {
+            chicken: 180,
+            beef: 200,
+            pork: 180,
+            lamb: 200
+        };
+        
+        var defaultCuts = {
+	    chicken: 'whole',
+	    beef: 'steak',
+	    pork: 'chop',
+	    lamb: 'chop'
+	};
+
+        var meatType = 'chicken';
+        var cut = 'whole';
+
+	// Add to your existing JavaScript code:
+	function setMeatType(button, type) {
+	    meatType = type;
+	    
+	    // remove 'active' class from all buttons
+	    var buttons = document.getElementsByClassName('meatType');
+	    for (var i = 0; i < buttons.length; i++) {
+		buttons[i].classList.remove('active');
+	    }
+	    
+	    // add 'active' class to the clicked button
+	    button.classList.add('active');
+	    
+	    // set default temperature
+	    document.getElementById('temperature').value = defaultTemperatures[meatType];
+	    
+	    // Update the cut when the meat type changes
+	    var defaultCut = defaultCuts[meatType];
+	    setCutByType(defaultCut);
+	    
+	    updateCutButtons();
+	    calculate();
+	}
+	
+	function setCutByType(cutType) {
+	    cut = cutType;
+
+	    // remove 'active' class from all buttons
+	    var buttons = document.getElementsByClassName('cut');
+	    for (var i = 0; i < buttons.length; i++) {
+		buttons[i].classList.remove('active');
+	    }
+
+	    // add 'active' class to the appropriate button
+	    var cutButtons = document.querySelectorAll('.cut');
+	    for (var i = 0; i < cutButtons.length; i++) {
+		var button = cutButtons[i];
+		if (button.getAttribute('data-cut') === cutType) {
+		    button.classList.add('active');
+		}
+	    }
+	}
+
+	function setCut(button, selectedCut) {
+	    cut = selectedCut;
+
+	    // remove 'active' class from all buttons
+	    var buttons = document.getElementsByClassName('cut');
+	    for (var i = 0; i < buttons.length; i++) {
+		buttons[i].classList.remove('active');
+	    }
+
+	    // add 'active' class to the clicked button
+	    button.classList.add('active');
+
+	    calculate();
+	}
+	
+        function updateCutButtons() {
+            var cutButtons = document.getElementsByClassName('cut');
+
+            for (var i = 0; i < cutButtons.length; i++) {
+                var meatOptions = cutButtons[i].getAttribute('data-meat').split(',');
+
+                if (meatOptions.includes(meatType)) {
+                    cutButtons[i].style.display = 'inline-block';
+                } else {
+                    cutButtons[i].style.display = 'none';
+                }
+            }
+        }
+
+	var cookingTimesPerKg = {
+	    chicken: { whole: 44, breast: 20, thigh: 40 },
+	    beef: { steak: 15, roast: 60, ground: 30, chop: 40 },
+	    pork: { chop: 25, roast: 90, ground: 30, steak: 20 },
+	    lamb: { chop: 30, roast: 60, ground: 30, steak: 15 }
+	};
+
+	var cookingTimesPerLb = {
+	    chicken: { whole: 20, breast: 9, thigh: 18 },
+	    beef: { steak: 7, roast: 27, ground: 14, chop: 18 },
+	    pork: { chop: 11, roast: 41, ground: 14, steak: 9 },
+	    lamb: { chop: 14, roast: 27, ground: 14, steak: 7 }
+	};
+
+        var minus = document.querySelectorAll('.minus');
+
+        for (var i = 0; i < minus.length; i++) {
+            minus[i].addEventListener('click', function(event) {
+                var currentWeight = parseFloat(document.getElementById('weight').value);
+                if (currentWeight > 0) {
+                    document.getElementById('weight').value = (currentWeight - 0.1).toFixed(1);
+                }
+                calculate();
+            });
+        }
+
+        var plus = document.querySelectorAll('.plus');
+
+        for (var i = 0; i < plus.length; i++) {
+            plus[i].addEventListener('click', function(event) {
+                var currentWeight = parseFloat(document.getElementById('weight').value);
+                if (currentWeight == "") {
+                    document.getElementById('weight').value = 0.1.toFixed(1);
+                } else {
+                    document.getElementById('weight').value = (currentWeight + 0.1).toFixed(1);
+                }
+                calculate();
+            });
+        }
+
+
+        function calculate() {
+            var weight = parseFloat(document.getElementById('weight').value);
+            if (isNaN(weight)) {
+                return;
+            }
+            var unit = document.querySelector('input[name="unit"]:checked').value;
+            var temperature = parseFloat(document.getElementById('temperature').value);
+            if (isNaN(temperature)) {
+                return;
+            }
+
+            var cookingTimes;
+
+            if (unit === 'kg') {
+                cookingTimes = cookingTimesPerKg;
+            } else if (unit === 'lb') {
+                cookingTimes = cookingTimesPerLb;
+            }
+
+            var cookingTime = cookingTimes[meatType][cut];
+            var totalTime = cookingTime * weight;
+
+            document.getElementById('result').innerHTML = 'Cooking time: ' + totalTime + ' minutes at ' + temperature + '°C';
+        }
+
+        function updateUnitSelection() {
+            calculate();
+        }
+
+	// Set initial values
+	setMeatType(document.getElementsByClassName('meatType')[0], 'chicken');
+    </script>
+</body>
+</html>
+
