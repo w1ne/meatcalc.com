@@ -3,6 +3,25 @@ $meat-light: darken(#FFAB91, 15%); // Make the light color darker
 $meat-dark: darken(#4E342E, 15%); // Make the dark color darker
 $meat-medium: darken(#EF6C00, 15%); // Make the medium color darker
 
+// Define your dark theme colors
+$dark-theme-background: #282c35;
+$dark-theme-foreground: #ffffff;
+
+// Override Bulma's variables
+$white: $dark-theme-foreground;
+$black: $dark-theme-background;
+$text: $dark-theme-foreground;
+$title-color: $grey-lighter;
+$input-background-color: $grey-lighter;
+$footer-background-color: darken($dark-theme-background, 5%);
+
+$table-background-color: $dark-theme-background;
+$table-hover-background-color: darken($dark-theme-background, 5%);
+$table-color: $dark-theme-foreground;
+
+$body-background-color: $dark-theme-background;
+$body-foreground-color: $dark-theme-foreground;
+
 $primary: $meat-light;
 $link: $meat-light;
 $danger: $meat-medium;
@@ -31,6 +50,7 @@ $primary-light: findLightColor($primary);
 $primary-dark: findDarkColor($primary);
 $link-light: findLightColor($link);
 $link-dark: findDarkColor($link);
+$link-hover: findLightColor($link);
 
 // Buttons
 $button-color: $meat-dark;
@@ -48,6 +68,7 @@ $button-focus-border-color: $meat-dark;
 $button-focus-box-shadow-color: rgba($meat-dark, 0.25);
 
 $navbar-item-img-max-height: 2.2rem;
+
 
 $colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert, $primary-light, $primary-dark), "link": ($link, $link-invert, $link-light, $link-dark), "info": ($info, $info-invert, $info-light, $info-dark), "success": ($success, $success-invert, $success-light, $success-dark), "warning": ($warning, $warning-invert, $warning-light, $warning-dark), "danger": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors);
 $shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades);

@@ -1,0 +1,96 @@
+[Name]
+other = "Stegetidsberegner"
+
+[IntefaceQuestion]
+others = "Hvilken type kød tilbereder du?"
+
+[Chicken] 
+  others = "🐔 Kylling"
+[Beef] 
+  others = "🐄 Oksekød"
+[Pork] 
+  others =  "🐖 Svin"
+[Lamb] 
+  others =  "🐑 Lam"
+[Fish] 
+  others = "🐟 Fisk"
+[Mutton]
+  others = "🐏 Får"
+[Turkey] 
+  others = "🦃 Kalkun"
+[Duck] 
+  others = "🦆 And"
+[Goat] 
+  others = "🐐 Ged"
+[Venison] 
+  others =  "🦌 Vildt"
+[Rabbit]
+  others = "🐇 Kanin"
+
+[Intro]
+other = """
+# Din guide til perfekte stegetider: Hvor længe skal jeg stege?
+
+Stegning er en grundlæggende madlavningsteknik, der fremhæver det rige, dybe smag i kødet. Men at finde den perfekte stegetid kan være et kulinarisk puslespil. Men bekymr dig ikke mere, for vores interaktive Stegetid Kalkulator er her for at guide dig på din rejse til en lækker steg.
+
+## Eksempler på stegetider
+
+### 🐔 Kylling
+
+At stege en kylling ved 180°C er en effektiv metode til at opnå et saftigt indre og en sprød hud. Den anbefalede stegetid er cirka 44 minutter per kilogram. For at sikre, at kyllingen er fuldt tilberedt, skal du indsætte et kødtermometer i den tykkeste del af fuglen, undgå knoglen. Den interne temperatur skal nå 74°C. Glem ikke at lade kyllingen hvile i cirka 15 minutter før udskæring for at tillade safterne at redistribuere.
+
+### 🐄 Oksekød
+
+For at stege oksekød, forvarm din ovn til 200°C. En god tommelfingerregel er at lave det i cirka 60 minutter per kilogram for en medium steg. Selvfølgelig kan dette justeres, hvis du foretrækker dit oksekød mere sjældent eller godt stegt. Brug et kødtermometer og sigte efter en intern temperatur på 63°C for medium-rare, 71°C for medium og 77°C for godt stegt. Lad oksekødet hvile i 15-20 minutter før udskæring for at bevare saftigheden.
+
+### 🐖 Svin
+
+Til stegning af svinekød er 180°C en standardtemperatur. Givet sorten af udskæringer, kan en omtrentlig stegetid på 90 minutter per kilogram tjene som en retningslinje. Svinet skal være kogt, indtil den interne temperatur når 71°C. Lad svinekødet hvile i 10-15 minutter før skæring for at sikre, at kødet forbliver saftigt.
+
+### 🐑 Lam
+
+For en mør, saftig stegt lam, forvarm din ovn til 200°C. Som en generel regel, sigte efter cirka 60 minutters stegetid per kilogram. Juster din madlavningstid afhængigt af, hvor godt stegt du foretrækker dit lam. Lad altid lammet hvile i 15-20 minutter før udskæring.
+
+### 🐟 Fisk
+
+Fisk kan steges effektivt ved 180°C. Madlavningstiden kan dog variere meget afhængig af typen og tykkelsen af fisken. Generelt kan stegning i cirka 25 minutter per kilogram fungere for mange typer. Fisken skal nemt flage med en gaffel, når den er færdig.
+
+### 🐏 Får (Mutton)
+
+Fårekød kan være lidt mere besværligt, da det ofte kommer fra ældre får, hvilket kan gøre kødet sejere. En langsommere stegning ved 200°C i cirka 45 minutter per kilogram kan hjælpe med at nedbryde de sejere muskelfibre og resultere i en mør steg.
+
+### 🦃 Kalkun
+
+For en lækker stegt kalkun, brug en ovn forvarmet til 180°C. I gennemsnit skal du stege din kalkun i cirka 40 minutter per kilogram. Størrelsen og fyldet i kalkunen kan dog påvirke tilberedningstiden. Sørg altid for, at din kalkun når en intern temperatur på 74°C, før du fjerner den fra ovnen.
+
+### 🦆 And
+
+For at opnå en godt tilberedt and med en sprød hud, steg ved en højere temperatur på 200°C. Den generelle stegetid kan være omkring 50 minutter per kilogram, men dette kan variere meget afhængigt af andens størrelse. Tjek altid den interne temperatur, sigter efter 74°C for fuldt tilberedt and, selvom nogle foretrækker det lidt rosa i midten.
+
+### 🐐 Ged
+
+Gedekød kan variere meget i mørhed og smag afhængigt af dyrets alder og diæt. Som udgangspunkt kan du stege det ved 180°C i cirka 75 minutter per kilogram. Juster madlavningstid og temperatur efter behov, afhængigt af det specifikke snit og det ønskede niveau af tilberedning.
+
+### 🦌 Vildt (Venison)
+
+Givet dets magre natur, kan vildt tørre ud, hvis det er overkogt. For at undgå dette, steg det ved 180°C i cirka 55 minutter per kilogram for en medium-sjælden steg. Brug et kødtermometer for at sikre, at den interne temperatur er omkring 63°C for medium-sjælden.
+
+### 🐇 Kanin
+
+Kanin er et magert kød, meget lig vildt, og bør ikke overkoges. Et godt udgangspunkt er at stege ved 180°C i cirka 40 minutter per kilogram. Tjek altid for en intern temperatur på mindst 71°C for at sikre, at kødet er sikkert at indtage.
+
+Selvom vores kalkulator giver en pålidelig retningslinje, er det vigtigt at huske, at det er et approximationsværktøj. Faktorer såsom ovnens ydeevne, nøjagtigheden af temperaturindstillingerne og hvordan du kan lide dit kød tilberedt, kan påvirke den faktiske stegetid. Derfor er det altid en god idé at holde nøje øje med din steg, især når du laver den for første gang.
+
+Hvad mere er, vores Stegetid Kalkulator giver også ernæringsmæssige oplysninger for hver type kød, hvilket hjælper dig med at forstå den ernæringsmæssige værdi af din valgte steg. Så uanset om du er en nybegynder kok eller en erfaren kok, er vores kalkulator designet til at hjælpe dig med at mestre kunsten at stege. God fornøjelse med stegningen!
+"""
+[keepScreenOn]
+other = "Hold skærmen tændt"
+
+[auto]
+other = "Auto"
+
+[clickmic]
+other = "Tryk på mikrofonen for at starte tuning"
+
+[install_app]
+  other = "Installer app"

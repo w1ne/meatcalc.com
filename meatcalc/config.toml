@@ -1,4 +1,170 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://meatcal.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Meat roating time calculator'
 theme = 'viko'
+DefaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup.goldmark.renderer]
+  hardWraps = true
+
+[minify]
+  enable = true
+  minifyCSS = true
+  minifyJS = true
+
+[params]
+    author = "meatcalc.com"
+    description = "Roasting Time Calculator: Your Ultimate Guide to Precision Meat Cooking"
+    # Needed for analytics
+    facebook_app_id = "123456789"
+
+# Text that appears on the home page
+[params.home]
+  title = "meatcalc.com"
+  subtitle = "Roasting Time Calculator: Your Ultimate Guide to Precision Meat Cooking"
+  intro = ""
+
+# Contact page and footer.
+# Also feeds the generated ld+json https://schema.org/Organization which appears on the home page
+[params.contact]
+  org_name = "meatcalc.com"
+  email = "hi@meatcalc.com"
+  # This appears on the contact page
+  full_address = ""
+  # These are used in the footer
+  street_address = ""
+  city = ""
+  post_code = ""
+  country = ""
+
+# Contact page
+[params.contact.phone]
+# number appears as href="tel:xxx-xxx-xxx"
+number = ""
+display = ""
+
+# Contact page
+[params.contact.whatsapp]
+number = ""
+display = ""
+
+# Footer
+[params.social]
+twitter_url = ""
+# Used for twitter:site field in the twitter cards
+twitter_handle = ""
+# Used for twitter:creator field in the twitter cards
+author_twitter_handle = ""
+facebook_url = ""
+feedback_url = "https://meatcalc.canny.io/"
+
+[languages]
+  [languages.en]
+    title = "Roasting Time Calculator - Your Guide to Precision Meat Cooking"
+    description = "Take the guesswork out of your kitchen with our Meat Roasting Time Calculator. Equipped to handle a wide variety of meats, it provides accurate roasting times and nutritional values for your chosen roast. Perfect for cooks of all skill levels, it's free, easy-to-use, and optimized for mobile devices."
+    languageName = "English"
+    contentDir = "content/en"
+  
+  [languages.es]
+    title = "Calculadora de Tiempos de Asado - Su guía para cocinar carne a la perfección"
+    description = "Elimine las dudas en su cocina con nuestra Calculadora de Tiempos de Asado. Diseñada para manejar una amplia variedad de carnes, ofrece tiempos de asado precisos y valores nutricionales para su asado elegido. Perfecto para cocineros de todos los niveles, es gratuito, fácil de usar y optimizado para dispositivos móviles."
+    languageName = "Español"
+    contentDir = "content/es"
+  
+  [languages.fr]
+    title = "Calculatrice de Temps de Rôtissage - Votre guide pour la cuisson précise de la viande"
+    description = "Retirez le mystère de votre cuisine avec notre Calculatrice de Temps de Rôtissage. Equipée pour gérer une grande variété de viandes, elle fournit des temps de rôtissage précis et des valeurs nutritionnelles pour votre rôti choisi. Parfaite pour les cuisiniers de tous niveaux, elle est gratuite, facile à utiliser et optimisée pour les appareils mobiles."
+    languageName = "Français"
+    contentDir = "content/fr"
+  
+  [languages.de]
+    title = "Bratzeitrechner - Ihr Guide für präzises Fleischkochen"
+    description = "Nehmen Sie das Rätselraten aus Ihrer Küche mit unserem Bratzeitrechner. Ausgerüstet, um eine Vielzahl von Fleischsorten zu bewältigen, liefert er genaue Bratzeiten und Nährwertangaben für Ihren gewählten Braten. Perfekt für Köche aller Erfahrungsstufen, ist es kostenlos, einfach zu bedienen und für mobile Geräte optimiert."
+    languageName = "Deutsch"
+    contentDir = "content/de"
+  
+  [languages.zh]
+    title = "烤肉时间计算器 - 您的精准烹饪指南"
+    description = "使用我们的烤肉时间计算器，让您的厨房工作变得轻松。它能处理各种肉类，为您提供精确的烤肉时间和营养价值。适合所有技能水平的厨师使用，免费，易于使用，并已针对移动设备优化。"
+    languageName = "中文"
+    contentDir = "content/zh"
+  
+  [languages.it]
+    title = "Calcolatore del Tempo di Arrosto - La tua guida per la cottura perfetta della carne"
+    description = "Elimina le incertezze dalla tua cucina con il nostro Calcolatore del Tempo di Arrosto. In grado di gestire una vasta gamma di carni, fornisce tempi di cottura precisi e valori nutrizionali per il tuo arrosto scelto. Perfetto per cuochi di tutti i livelli, è gratuito, facile da usare e ottimizzato per dispositivi mobili."
+    languageName = "Italiano"
+    contentDir = "content/it"
+  
+  [languages.pt]
+    title = "Calculadora de Tempo de Assado - Seu guia para a cozinha de carne de precisão"
+    description = "Remova as adivinhações da sua cozinha com nossa Calculadora de Tempo de Assado. Equipada para lidar com uma grande variedade de carnes, ela fornece tempos de assado precisos e valores nutricionais para o seu assado escolhido. Perfeita para cozinheiros de todos os níveis de habilidade, é gratuita, fácil de usar e otimizada para dispositivos móveis."
+    languageName = "Português"
+    contentDir = "content/pt"
+  
+  [languages.ja]
+    title = "焼き時間計算機 - あなたの精密な肉料理のガイド"
+    description = "当社の焼き時間計算機を使ってキッチンでの推測を取り除きます。さまざまな種類の肉を扱うことができ、選んだローストの正確な焼き時間と栄養価を提供します。すべてのスキルレベルの料理人に最適で、無料で、使いやすく、モバイルデバイスに最適化されています。"
+    languageName = "日本語"
+    contentDir = "content/ja"
+  
+  [languages.pl]
+    title = "Kalkulator Czasu Pieczenia - Twój przewodnik do precyzyjnego gotowania mięsa"
+    description = "Pozbądź się domysłów ц Twojej kuchni dzięki naszemu Kalkulatorowi Czasu Pieczenia. Wyposażony do obsługi szerokiej gamy mięs, dostarcza dokładne czasy pieczenia i wartości odżywcze dla wybranego pieczenia. Idealny dla kucharzy na wszystkich poziomach umiejętności, bezpłatny, łatwy w użyciu i zoptymalizowany do urządzeń mobilnych."
+    languageName = "Polski"
+    contentDir = "content/pl"
+  
+  [languages.uk]
+    title = "Калькулятор часу печіння - Ваш путівник до точного приготування м'яса"
+    description = "Позбавтеся непевності у вашій кухні з нашим калькулятором часу печіння. Обладнаний для обробки широкого спектра м'яса, він забезпечує точні часи обсмаження та харчові цінності для вашого обраного м'яса. Ідеально підходить для кухарів будь-якого рівня, безкоштовний, простий у використанні та оптимізований для мобільних пристроїв."
+    languageName = "Українська"
+    contentDir = "content/uk"
+  
+  [languages.ko]
+    title = "구이 시간 계산기 - 정밀한 고기 요리를 위한 안내서"
+    description = "우리의 구이 시간 계산기로 부엌에서의 추측을 없애십시오. 다양한 육류를 다룰 수 있으며, 선택한 로스트의 정확한 구이 시간과 영양 가치를 제공합니다. 모든 기술 레벨의 요리사에게 완벽하며, 무료이며, 사용하기 쉽고, 모바일 장치에 최적화되어 있습니다."
+    languageName = "한국어"
+    contentDir = "content/ko"
+  
+  [languages.nl]
+    title = "Braadtijd Calculator - Uw gids voor nauwkeurig vlees koken"
+    description = "Haal de gok uit je keuken met onze Braadtijd Calculator. Uitgerust om een breed scala aan vlees aan te kunnen, levert het nauwkeurige braadtijden en voedingswaarden voor je gekozen braadstuk. Perfect voor koks van alle vaardigheidsniveaus, het is gratis, makkelijk te gebruiken en geoptimaliseerd voor mobiele apparaten."
+    languageName = "Nederlands"
+    contentDir = "content/nl"
+  
+  [languages.tr]
+    title = "Kavurma Zamanı Hesaplayıcı - Hassas et pişirme için rehberiniz"
+    description = "Mutfaktaki tahminleri çıkarın, bizimle Kavurma Zamanı Hesaplayıcımızı kullanın. Geniş bir et çeşidi ile başa çıkmak için donatılmıştır, seçtiğiniz rosto için doğru kavurma sürelerini ve besin değerlerini sağlar. Tüm beceri seviyelerindeki aşçılar için mükemmeldir, ücretsizdir, kullanımı kolaydır ve mobil cihazlar için optimize edilmiştir."
+    languageName = "Türkçe"
+    contentDir = "content/tr"
+  
+  [languages.el]
+    title = "Υπολογιστής Χρόνου Ψησίματος - Οδηγός σας για ακριβής μαγείρεμα κρέατος"
+    description = "Απαλλαγείτε από τις εικασίες στην κουζίνα σας με τον Υπολογιστή μας Χρόνου Ψησίματος. Εξοπλισμένος για τον χειρισμό μιας μεγάλης ποικιλίας κρεάτων, παρέχει ακριβείς χρόνους ψησίματος και διατροφικές αξίες για το επιλεγμένο ψήσιμο. Ιδανικό για μάγειρες όλων των επιπέδων δεξιοτήτων, είναι δωρεάν, εύκολο στη χρήση και βελτιστοποιημένο για κινητά."
+    languageName = "Ελληνικά"
+    contentDir = "content/el"
+  
+  [languages.sv]
+    title = "Stektid Kalkylator - Din guide till precision matlagning"
+    description = "Ta bort gissningarna från ditt kök med vår Stektid Kalkylator. Utrustad för att hantera en mängd olika kött, den ger exakta stektider och näringsvärden för din valda stek. Perfekt för kockar på alla nivåer, det är gratis, lätt att använda och optimerat för mobila enheter."
+    languageName = "Svenska"
+    contentDir = "content/sv"
+  
+  [languages.no]
+    title = "Steketid Kalkulator - Din guide til presisjonsmatlaging"
+    description = "Fjern gjetningen fra kjøkkenet ditt med vår Steketid Kalkulator. Utstyrt for å håndtere et bredt utvalg av kjøtt, gir det nøyaktige steketider og næringsverdier for steken din. Perfekt for kokker på alle ferdighetsnivåer, det er gratis, lett å bruke og optimalisert for mobile enheter."
+    languageName = "Norsk"
+    contentDir = "content/no"
+  
+  [languages.da]
+    title = "Stegning Tid Kalkulator - Din guide til præcision madlavning"
+    description = "Fjern gætteriet fra dit køkken med vores Stegning Tid Kalkulator. Udstyret til at håndtere en bred vifte af kød, det giver nøjagtige stegningstider og ernæringsværdier for dit valgte steg. Perfekt til kokke på alle niveauer, det er gratis, let at bruge og optimeret for mobile enheder."
+    languageName = "Dansk"
+    contentDir = "content/da"
+  
+  [languages.fi]
+    title = "Paistoajan Laskin - Sinun opas tarkkaan lihanvalmistukseen"
+    description = "Poista arvailu keittiöstäsi meidän Paistoajan Laskurillamme. Varustettu käsittelemään laaja valikoima lihaa, se tarjoaa tarkat paistoajat ja ravintoarvot valitsemallesi paistille. Täydellinen kaiken tasoisille kokeille, se on ilmainen, helppokäyttöinen ja optimoitu mobiililaitteille."
+    languageName = "Suomi"
+    contentDir = "content/fi"
+

@@ -1,0 +1,90 @@
+[Name]
+other = "Braad Tijd Calculator"
+
+[IntefaceQuestion]
+others = "Welk soort vlees gaat u bereiden?"
+
+[Chicken] 
+  others = "🐔 Kip"
+[Beef] 
+  others = "🐄 Rundvlees"
+[Pork] 
+  others =  "🐖 Varkensvlees"
+[Lamb] 
+  others =  "🐑 Lamsvlees"
+[Fish] 
+  others = "🐟 Vis"
+[Mutton]
+  others = "🐏 Schapenvlees"
+[Turkey] 
+  others = "🦃 Kalkoen"
+[Duck] 
+  others = "🦆 Eend"
+[Goat] 
+  others = "🐐 Geit"
+[Venison] 
+  others =  "🦌 Hert"
+[Rabbit]
+  others = "🐇 Konijn"
+
+[Intro]
+other = """
+# Uw gids voor perfecte braadtijden: Hoe lang moet ik braden?
+
+Braden is een essentiële kooktechniek die de rijke, diepe smaken in vlees naar boven haalt. Het vinden van de perfecte braadtijd kan echter moeilijk zijn. Onze interactieve Braadtijd Calculator is hier om u te begeleiden op uw reis naar een verrukkelijk gebraden gerecht.
+
+## Voorbeelden van Braadtijden
+
+### 🐔 Kip
+
+Het braden van een kip op 180°C is een effectieve methode om een sappige binnenkant en een knapperige huid te krijgen. De aanbevolen braadtijd is ongeveer 44 minuten per kilogram. Om ervoor te zorgen dat de kip volledig gaar is, steek je een vleesthermometer in het dikste deel van de vogel, vermijd het bot. De interne temperatuur moet 74°C bereiken. Vergeet niet de kip ongeveer 15 minuten te laten rusten voordat je hem aansnijdt, om de sappen te laten herverdelen.
+
+### 🐄 Rundvlees
+
+Om rundvlees te braden, verwarm je je oven voor op 200°C. Een goede vuistregel is om het ongeveer 60 minuten per kilogram te koken voor een medium roast. Natuurlijk kan dit worden aangepast als je je rundvlees meer rare of well-done prefereert. Gebruik een vleesthermometer en streef naar een interne temperatuur van 63°C voor medium-rare, 71°C voor medium en 77°C voor well-done. Laat het rundvlees 15-20 minuten rusten voordat je het aansnijdt om de sappigheid te behouden.
+
+### 🐖 Varkensvlees
+
+Voor het braden van varkensvlees is 180°C een standaard temperatuur. Gezien de verscheidenheid aan stukken, kan een geschatte braadtijd van 90 minuten per kilogram dienen als richtlijn. Het varkensvlees moet worden gekookt tot de interne temperatuur 71°C bereikt. Laat het varkensvlees 10-15 minuten rusten voordat je het aansnijdt om ervoor te zorgen dat het vlees sappig blijft.
+
+### 🐑 Lamsvlees
+
+Voor een mals, sappig gebraden lam, verwarm je je oven voor op 200°C. Als algemene regel geldt dat je ongeveer 60 minuten braadtijd per kilogram moet aanhouden. Pas je kooktijd aan afhankelijk van hoe gaar je je lamsvlees wilt hebben. Laat het lamsvlees altijd 15-20 minuten rusten voordat je het aansnijdt.
+
+### 🐟 Vis
+
+Vis kan effectief worden gebraden op 180°C. Echter, de kooktijd kan sterk variëren afhankelijk van het type en de dikte van de vis. Over het algemeen kan het braden van ongeveer 25 minuten per kilogram voor veel soorten werken. De vis moet gemakkelijk uit elkaar vallen met een vork als hij gaar is.
+
+### 🐏 Schapenvlees
+
+Schapenvlees kan een beetje lastiger zijn omdat het vaak van oudere schapen komt, wat het vlees taaier kan maken. Een langzamere braadpartij op 200°C voor ongeveer 45 minuten per kilogram kan helpen om de taaiere spiervezels af te breken en resulteert in een mals gebraden stuk.
+
+### 🦃 Kalkoen
+
+Voor een heerlijk gebraden kalkoen, gebruik je een oven die is voorverwarmd tot 180°C. Gemiddeld moet je je kalkoen ongeveer 40 minuten per kilogram braden. De grootte en vulling van de kalkoen kunnen echter de kooktijd beïnvloeden. Zorg er altijd voor dat je kalkoen een interne temperatuur van 74°C bereikt voordat je hem uit de oven haalt.
+
+### 🦆 Eend
+
+Om een goed gekookte eend met een knapperige huid te krijgen, braad je op een hogere temperatuur van 200°C. De algemene braadtijd zou ongeveer 50 minuten per kilogram kunnen zijn, maar dit kan sterk variëren afhankelijk van de grootte van de eend. Controleer altijd de interne temperatuur, streef naar 74°C voor een volledig gekookte eend, hoewel sommigen het iets roze in het midden prefereren.
+
+### 🐐 Geit
+
+Geitenvlees kan sterk variëren in malsheid en smaak afhankelijk van de leeftijd en het dieet van het dier. Als startpunt kun je het braden op 180°C voor ongeveer 75 minuten per kilogram. Pas de kooktijd en temperatuur naar behoefte aan, afhankelijk van het specifieke stuk en de gewenste gaarheid.
+
+### 🦌 Hert
+
+Gezien de magerheid van hertenvlees, kan het uitdrogen als het te gaar wordt. Om dit te voorkomen, braad je het op 180°C voor ongeveer 55 minuten per kilogram voor een medium-rare braadstuk. Gebruik een vleesthermometer om ervoor te zorgen dat de
+
+ interne temperatuur rond de 63°C is voor medium-rare.
+
+### 🐇 Konijn
+
+Konijnenvlees is mager, net als hertenvlees, en mag niet te gaar worden. Een goed startpunt is braden op 180°C voor ongeveer 40 minuten per kilogram. Controleer altijd op een interne temperatuur van minstens 71°C om ervoor te zorgen dat het vlees veilig is om te consumeren.
+
+Hoewel onze calculator een betrouwbare richtlijn biedt, is het belangrijk om te onthouden dat het een benaderingsinstrument is. Factoren zoals de prestaties van de oven, de nauwkeurigheid van de temperatuurinstellingen en hoe je je vlees graag gebakken wilt hebben, kunnen de werkelijke braadtijd beïnvloeden. Daarom is het altijd een goed idee om je braadstuk goed in de gaten te houden, vooral als je het voor de eerste keer kookt.
+
+Bovendien biedt onze Braadtijd Calculator ook voedingsinformatie voor elk type vlees, zodat je de voedingswaarde van je gekozen braadstuk kunt begrijpen. Dus of je nu een beginnende kok bent of een ervaren chef, onze calculator is ontworpen om je te helpen de kunst van het braden onder de knie te krijgen. Gelukkig braden!
+"""
+
+[install_app]
+  other = "App Installeren"

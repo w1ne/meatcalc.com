@@ -1,0 +1,55 @@
+.container-limited {
+    max-width: 600px;
+    min-width: 400px; /* set this to whatever minimum width you want */
+    width: 100%;
+    margin: auto;
+}
+
+.button:hover {
+    filter: brightness(95%);
+}
+
+.icon.is-small.is-right {
+    position: absolute;
+    right: 10px;
+    color: grey;
+}
+
+.nutrition-table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 16px;
+}
+.nutrition-table td {
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+.nutrition-table td:nth-child(2) {
+	text-align: right;
+}
+
+.nutrition-table tr:nth-child(even) {
+    background-color: darken($table-background-color, 5%);
+}
+
+p {
+    margin-bottom: 1em;
+    text-indent: 1em;
+  }
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,90 @@
+[Name]
+other = "Calculadora de Tempo de Assado"
+
+[IntefaceQuestion]
+others = "Que tipo de carne você está cozinhando?"
+
+[Chicken] 
+  others = "🐔 Frango"
+[Beef] 
+  others = "🐄 Carne de Vaca"
+[Pork] 
+  others =  "🐖 Porco"
+[Lamb] 
+  others =  "🐑 Cordeiro"
+[Fish] 
+  others = "🐟 Peixe"
+[Mutton]
+  others = "🐏 Carneiro"
+[Turkey] 
+  others = "🦃 Peru"
+[Duck] 
+  others = "🦆 Pato"
+[Goat] 
+  others = "🐐 Cabra"
+[Venison] 
+  others =  "🦌 Veado"
+[Rabbit]
+  others = "🐇 Coelho"
+
+[Intro]
+other = """
+# Seu Guia para Tempos de Assado Perfeitos: Quanto Tempo Devo Assar?
+
+Assar é uma técnica de cozimento essencial que realça os sabores ricos e profundos da carne. No entanto, encontrar o tempo de assado perfeito pode ser difícil. Nossa Calculadora de Tempo de Assado interativa está aqui para orientar você em sua jornada para um assado delicioso.
+
+## Exemplos de Tempo de Assado
+
+### 🐔 Frango
+
+Assar um frango a 180°C é um método eficaz para alcançar um interior suculento e uma pele crocante. O tempo de assado recomendado é de aproximadamente 44 minutos por quilo. Para garantir que o frango esteja completamente cozido, insira um termômetro de carne na parte mais grossa da ave, evitando o osso. A temperatura interna deve atingir 74°C. Não se esqueça de deixar o frango descansar por cerca de 15 minutos antes de cortar para permitir que os sucos se redistribuam.
+
+### 🐄 Carne de Vaca
+
+Para assar carne de vaca, pré-aqueça seu forno a 200°C. Uma boa regra prática é cozinhar por aproximadamente 60 minutos por quilo para um assado médio. Claro, isso pode ser ajustado se você preferir sua carne mais mal passada ou bem passada. Use um termômetro de carne e aponte para uma temperatura interna de 63°C para mal passado, 71°C para médio e 77°C para bem passado. Deixe a carne de vaca descansar por 15-20 minutos antes de cortar para manter a suculência.
+
+### 🐖 Porco
+
+Para assar carne de porco, 180°C é uma temperatura padrão. Dada a variedade de cortes, um tempo de assado aproximado de 90 minutos por quilo pode servir como um guia. A carne de porco deve ser cozida até que a temperatura interna atinja 71°C. Deixe a carne de porco descansar por 10-15 minutos antes de fatiar para garantir que a carne permaneça úmida.
+
+### 🐑 Cordeiro
+
+Para um assado de cordeiro tenro e suculento, pré-aqueça o forno a 200°C. Como regra geral, aponte para aproximadamente 60 minutos de tempo de assado por quilo. Ajuste o tempo de cozimento dependendo de como você prefere seu cordeiro. Sempre deixe o cordeiro descansar por 15-20 minutos antes de cortar.
+
+### 🐟 Peixe
+
+Peixe pode ser assado eficazmente a 180°C. No entanto, o tempo de cozimento pode variar muito dependendo do tipo e espessura do peixe. Geralmente, assar por cerca de 25 minutos por quilo pode funcionar para muitos tipos. O peixe deve se desfazer facilmente com um garfo quando estiver pronto.
+
+### 🐏 Carneiro
+
+O carneiro pode ser um pouco mais complicado, pois geralmente vem de ovelhas mais velhas, o que pode tornar a carne mais dura. Um assado mais lento a 200°C por cerca de 45 minutos por quilo pode ajudar a quebrar as fibras musculares mais duras e resultar em um assado macio.
+
+### 🦃 Peru
+
+Para um peru deliciosamente assado, use um forno pré-aquecido a 180°C. Em média, você deve assar seu peru por cerca de 40 minutos por quilo. No entanto, o tamanho e recheio do peru podem afetar o tempo de cozimento. Sempre verifique se o peru atinge uma temperatura interna de 74°C antes de retirá-lo do forno.
+
+### 🦆 Pato
+
+Para obter um pato bem cozido com uma pele crocante, asse a uma temperatura mais alta de 200°C. O tempo geral de assado pode ser de cerca de 50 minutos por quilo, mas isso pode variar muito dependendo do tamanho do pato. Sempre verifique a temperatura interna, visando 74°C para pato totalmente cozido, embora alguns prefiram um pouco rosado no meio.
+
+### 🐐 Cabra
+
+A carne de cabra pode variar muito em ternura e sabor dependendo da idade e dieta do animal. Como ponto de partida, você pode assá-la a 180°C por cerca de 75 minutos por quilo. Ajuste o tempo de cozimento e a temperatura conforme necessário, dependendo do corte específico e do nível desejado de cozimento.
+
+### 🦌 Veado
+
+Dada a sua natureza magra, o veado pode secar se for cozido demais. Para evitar isso, asse a 180°C por cerca de 55 minutos por quilo para um assado médio-raro. Use um termômetro de carne para garantir que a temperatura interna esteja em torno de 63°C para médio-raro.
+
+### 🐇 Coelho
+
+O coelho é uma carne magra, muito parecida com o veado, e não deve ser cozido demais. Um bom ponto de partida é assar a 180°C por cerca de 40 minutos por quilo. Sempre verifique se a temperatura interna é de pelo menos 71°C para garantir que a carne seja segura para consumo.
+
+Embora nossa calculadora forneça um guia confiável, é importante lembrar que é uma ferramenta de aproximação. Fatores como o desempenho do forno, a precisão das configurações de temperatura e como você gosta de sua carne cozida podem influenciar o tempo real de assado. Portanto, é sempre uma boa ideia ficar de olho em seu assado, especialmente quando você está cozinhando pela primeira vez.
+
+Além
+
+ disso, nossa Calculadora de Tempo de Assado também fornece informações nutricionais para cada tipo de carne, ajudando você a entender o valor nutricional do seu assado escolhido. Então, seja você um cozinheiro iniciante ou um chef experiente, nossa calculadora foi projetada para ajudá-lo a dominar a arte de assar. Feliz assado!
+""" 
+
+[install_app]
+  other = "Instalar App"

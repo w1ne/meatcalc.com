@@ -1,0 +1,196 @@
+<section class="section">
+    <div class="container-limited">
+        <h2 class="title is-2 has-text-centered">{{ i18n "Name" | markdownify }}</h2>
+
+        <div class="field has-addons is-centered">
+            <div class="control">
+                <p class="subtitle is-5">{{ i18n "IntefaceQuestion" | markdownify }}</p>
+            </div>
+        </div>
+        
+        <div class="buttons are-large is-centered">
+            <button class="button meatType" onclick="setMeatType(this, 'chicken')">
+                🐔 Chicken
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'beef')">
+                🐄 Beef
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'pork')">
+                🐖 Pork
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'lamb')">
+                🐑 Lamb
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'fish')">
+                🐟 Fish
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'mutton')">
+                🐏 Mutton
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'turkey')">
+                🦃 Turkey
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'duck')">
+                🦆 Duck
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'goat')">
+                🐐 Goat
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'venison')">
+                🦌 Venison
+            </button>
+            <button class="button meatType" onclick="setMeatType(this, 'rabbit')">
+                🐇 Rabbit
+            </button>
+        </div>
+        
+
+        <div class="field has-addons is-centered">
+            <div class="control">
+                <p class="subtitle is-5">What is the weight of the meat?</p>
+            </div>
+        </div>
+        <div class="field is-horizontal">
+            <div class="field-body">
+                <div class="field has-addons" style="justify-content: center; display: flex;">
+                    <p class="control">
+                        <button class="button is-primary is-large" onclick="decrementWeight()">-</button>
+                    </p>
+                    <p class="control is-narrow has-icons-right">
+                        <input class="input is-primary is-large" type="number" step="0.1" id="weight" oninput="calculate()" value="1" style="text-align:center;">
+                        <span class="icon is-small is-right">
+                            <i>kg</i>
+                        </span>
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary is-large" onclick="incrementWeight()">+</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+            <div class="buttons are-large is-primary is-centered">
+                <button class="button" onclick="changeWeight(0.5)">0.5 kg</button>
+                <button class="button" onclick="changeWeight(1)">1 kg</button>
+                <button class="button" onclick="changeWeight(1.5)">1.5 kg</button>
+            </div>
+
+            <div class="field has-addons" style="display: flex; justify-content: center;">
+                <p id="result" class="title is-2"></p>
+              </div>
+
+<!--       <div id="chickenNutrition" class="nutritionInfo">
+            <div class="table is-fullwidth nutrition-table is-centered">
+                {{ i18n "nutrition_chicken" | markdownify }}
+            </div>
+-->
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="column container-limited has-text-left">
+        {{ i18n "Intro" | markdownify }}
+    </dev>
+</section>
+
+<script>
+    var defaultTemperatures = {
+        chicken: 180,
+        beef: 200,
+        pork: 180,
+        lamb: 200,
+        fish: 180,
+        mutton: 200,
+        turkey: 180,
+        duck: 200,
+        goat: 180,
+        venison: 180,
+        rabbit: 180
+    };
+    
+	var cookingTimesPerKg = {
+	    chicken: 44,
+	    beef: 60,
+	    pork: 90,
+	    lamb: 60,
+	    fish: 25,
+	    mutton: 45,
+	    turkey: 40,
+	    duck: 50,
+	    goat: 75,
+	    venison: 55,
+	    rabbit: 40
+	};
+
+    var meatType = 'chicken';
+
+    function setMeatType(button, type) {
+        meatType = type;
+
+        // remove 'active' class from all buttons
+        var buttons = document.getElementsByClassName('meatType');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('active');
+        }
+
+        // add 'active' class to the clicked button
+        button.classList.add('active');
+
+        calculate();
+    }
+
+    function calculate() {
+        var weight = parseFloat(document.getElementById('weight').value);
+        if (isNaN(weight)) {
+            return;
+        }
+
+        var temperature = defaultTemperatures[meatType];
+        var cookingTime = cookingTimesPerKg[meatType];
+        var totalTime = Math.round(cookingTime * weight);
+
+        document.getElementById('result').innerHTML = 'Cooking time:<br>' + totalTime + ' minutes at ' + temperature + '°C';
+        
+        // Hide all nutrition divs
+        var nutritionDivs = document.getElementsByClassName('nutritionInfo');
+        for (var i = 0; i < nutritionDivs.length; i++) {
+            nutritionDivs[i].style.display = 'none';
+        }
+
+        // Show nutrition div for the selected meat type
+        var nutritionDiv = document.getElementById(meatType + 'Nutrition');
+        nutritionDiv.style.display = 'block';
+    }
+
+    function incrementWeight() {
+        var weight = parseFloat(document.getElementById('weight').value);
+        if (isNaN(weight)) {
+            return;
+        }
+        weight += 0.1;
+        document.getElementById('weight').value = weight.toFixed(1);
+        calculate();
+    }
+
+    function decrementWeight() {
+        var weight = parseFloat(document.getElementById('weight').value);
+        if (isNaN(weight)) {
+            return;
+        }
+        weight -= 0.1;
+        if (weight < 0.1) {
+            weight = 0.1;
+        }
+        document.getElementById('weight').value = weight.toFixed(1);
+        calculate();
+    }
+
+    function changeWeight(w) {
+        document.getElementById('weight').value = w.toFixed(1);
+        calculate();
+    }
+
+    // Set initial values
+    setMeatType(document.getElementsByClassName('meatType')[0], 'chicken');
+</script>
+

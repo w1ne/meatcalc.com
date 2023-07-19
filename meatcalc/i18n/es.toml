@@ -1,0 +1,90 @@
+[Name]
+other = "Calculadora de tiempo de tostado"
+
+[IntefaceQuestion]
+others = "¿Qué tipo de carne estás cocinando?"
+
+[Chicken] 
+  otros = "🐔 Pollo"
+[Beef] 
+  otros = "🐄 Carne de res"
+[Pork] 
+  otros = "🐖 Cerdo"
+[Lamb] 
+  otros = "🐑 Cordero"
+[Fish] 
+  otros = "🐟 Pescado"
+[Mutton]
+  otros = "🐏 Cordero"
+[Turkey] 
+  otros = "🦃 Turquía"
+[Duck] 
+  otros = "🦆 Pato"
+[Goat] 
+  otros = "🐐 Cabra"
+[Venison] 
+  otros = "🦌 Venado"
+[Rabbit]
+  otros = "🐇 Conejo"
+
+[Intro]
+other = """
+# Tu Guía para los Tiempos de Asado Perfectos: ¿Cuánto Tiempo Debo Asar?
+
+El asado es una técnica de cocina esencial que resalta los sabores ricos y profundos de la carne. Sin embargo, encontrar el tiempo de asado perfecto puede ser difícil. Nuestro Calculador de Tiempos de Asado interactivo está aquí para guiarte en tu camino hacia un asado delicioso.
+
+## Ejemplos de Tiempos de Asado
+
+### 🐔 Pollo
+
+Asar un pollo a 180°C es un método efectivo para lograr un interior jugoso y una piel crujiente. El tiempo de asado recomendado es aproximadamente 44 minutos por kilogramo. Para asegurarte de que el pollo esté completamente cocido, inserta un termómetro de carne en la parte más gruesa del ave, evitando el hueso. La temperatura interna debería llegar a 74°C. No olvides dejar reposar el pollo durante unos 15 minutos antes de cortarlo para permitir que los jugos se redistribuyan.
+
+### 🐄 Carne de Res
+
+Para asar carne de res, precalienta tu horno a 200°C. Una buena regla general es cocinarla durante aproximadamente 60 minutos por kilogramo para un asado medio. Por supuesto, esto puede ajustarse si prefieres tu carne más cruda o bien cocida. Usa un termómetro de carne y apunta a una temperatura interna de 63°C para medio crudo, 71°C para medio y 77°C para bien cocido. Deja reposar la carne de res durante 15-20 minutos antes de cortarla para mantener la jugosidad.
+
+### 🐖 Cerdo
+
+Para asar cerdo, 180°C es una temperatura estándar. Dada la variedad de cortes, un tiempo de asado aproximado de 90 minutos por kilogramo puede servir como guía. El cerdo debe cocinarse hasta que la temperatura interna alcance 71°C. Deja reposar el cerdo durante 10-15 minutos antes de cortarlo para asegurarte de que la carne permanezca jugosa.
+
+### 🐑 Cordero
+
+Para un asado de cordero tierno y suculento, precalienta tu horno a 200°C. Como regla general, apunta a aproximadamente 60 minutos de tiempo de asado por kilogramo. Ajusta tu tiempo de cocción dependiendo de cómo prefieres tu cordero. Siempre deja reposar el cordero durante 15-20 minutos antes de cortarlo.
+
+### 🐟 Pescado
+
+El pescado puede asarse eficazmente a 180°C. Sin embargo, el tiempo de cocción puede variar mucho dependiendo del tipo y grosor del pescado. Generalmente, asar durante unos 25 minutos por kilogramo puede funcionar para muchos tipos. El pescado debe desmenuzarse fácilmente con un tenedor cuando esté hecho.
+
+### 🐏 Carne de Oveja
+
+La carne de oveja puede ser un poco más complicada ya que a menudo proviene de ovejas mayores, lo que puede hacer que la carne sea más dura. Un asado más lento a 200°C durante unos 45 minutos por kilogramo puede ayudar a descomponer las fibras musculares más duras y resultar en un asado tierno.
+
+### 🦃 Pavo
+
+Para un delicioso pavo asado, usa un horno precalentado a 180°C. En promedio, debes asar tu pavo durante unos 40 minutos por kilogramo. Sin embargo, el tamaño y el relleno del pavo pueden afectar el tiempo de cocción. Siempre asegúrate de que tu pavo alcance una temperatura interna de 74°C antes de sacarlo del horno.
+
+### 🦆 Pato
+
+Para lograr un pato bien cocido con piel crujiente, asa a una temperatura más alta de 200°C. El tiempo general de asado podría ser alrededor de 50 minutos por kilogramo, pero esto podría variar mucho dependiendo del tamaño del pato. Siempre verifica la temperatura interna, apuntando a 74°C para un pato completamente cocido, aunque algunos lo prefieren ligeramente rosado en el medio.
+
+### 🐐 Cabra
+
+La carne de cabra puede variar mucho en ternura y sabor dependiendo de la edad y la dieta del animal. Como punto de partida, puedes asarla a 180°C durante unos 75 minutos por kilogramo. Ajusta el tiempo de cocción y la temperatura según sea necesario dependiendo del corte específico y el nivel de cocción deseado.
+
+### 🦌 Venado
+
+Dada su naturaleza magra, el venado puede secarse si se cocina demasiado. Para evitar esto, asa a 180°C durante unos 55 minutos por kilogramo para un asado medio crudo. Usa un termómetro de carne para asegurarte de que la temperatura interna esté alrededor de 63°C para medio crudo.
+
+### 🐇 Conejo
+
+El conejo es una carne magra, muy parecida al venado, y no debe cocinarse demasiado. Un buen punto de partida es asar a 180°C durante unos 40 minutos por kilogramo. Siempre verifica que la temperatura interna sea al menos de 71°C para asegurarte de que la carne es segura para consumir.
+
+Mientras que nuestro calculador proporciona una guía confiable, es importante recordar que es una herramienta de aproximación. Factores como el rendimiento del horno, la precisión de las configuraciones de temperatura y cómo te gusta que se cocine tu carne pueden influir en el tiempo real de asado. Por lo tanto,
+
+ siempre es una buena idea mantener un ojo en tu asado, especialmente cuando lo estás cocinando por primera vez.
+
+Además, nuestro Calculador de Tiempos de Asado también proporciona información nutricional para cada tipo de carne, ayudándote a entender el valor nutricional de tu asado elegido. Así que, ya seas un cocinero novato o un chef experimentado, nuestro calculador está diseñado para ayudarte a dominar el arte de asar. ¡Feliz asado!
+"""
+
+[install_app]
+  other = "Instalar la aplicación"

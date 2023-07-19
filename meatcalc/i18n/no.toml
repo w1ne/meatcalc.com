@@ -1,0 +1,90 @@
+[Name]
+other = "Steketidskalkulator"
+
+[IntefaceQuestion]
+others = "Hvilken type kjøtt skal du tilberede?"
+
+[Chicken] 
+  others = "🐔 Kylling"
+[Beef] 
+  others = "🐄 Storfekjøtt"
+[Pork] 
+  others =  "🐖 Svinekjøtt"
+[Lamb] 
+  others =  "🐑 Lam"
+[Fish] 
+  others = "🐟 Fisk"
+[Mutton]
+  others = "🐏 Sau"
+[Turkey] 
+  others = "🦃 Kalkun"
+[Duck] 
+  others = "🦆 And"
+[Goat] 
+  others = "🐐 Geit"
+[Venison] 
+  others =  "🦌 Hjort"
+[Rabbit]
+  others = "🐇 Kanin"
+
+[Intro]
+other = """
+# Din guide til perfekte steketider: Hvor lenge bør jeg steke?
+
+Steking er en essensiell tilberedningsmetode som fremhever de rike, dype smakene i kjøtt. Imidlertid kan det være vanskelig å finne den perfekte steketiden. Vår interaktive Steketidskalkulator er her for å guide deg på veien til en deilig stek.
+
+## Eksempler på steketider
+
+### 🐔 Kylling
+
+Det å steke en kylling ved 180°C er en effektiv metode for å oppnå et saftig indre og en sprø skorpe. Den anbefalte steketiden er omtrent 44 minutter per kilogram. For å forsikre deg om at kyllingen er helt stekt, sett et kjøtttermometer i den tykkeste delen av fuglen, unngå benet. Den indre temperaturen bør nå 74°C. Ikke glem å la kyllingen hvile i omtrent 15 minutter før du skjærer i den, slik at saftene får fordelt seg.
+
+### 🐄 Storfekjøtt
+
+For å steke storfekjøtt, forvarm ovnen til 200°C. En god tommelfingerregel er å steke det i omtrent 60 minutter per kilogram for en medium stek. Dette kan justeres om du foretrekker kjøttet ditt mer rått eller mer stekt. Bruk et kjøtttermometer og sikte på en indre temperatur på 63°C for medium-rått, 71°C for medium, og 77°C for godt stekt. La kjøttet hvile i 15-20 minutter før du skjærer i det, for å bevare saftigheten.
+
+### 🐖 Svinekjøtt
+
+For steking av svinekjøtt er 180°C en standard temperatur. Gitt variasjonen av snitt, kan en omtrentlig steketid på 90 minutter per kilogram fungere som en veiledning. Svinekjøttet bør stekes til den indre temperaturen når 71°C. La svinekjøttet hvile i 10-15 minutter før du skjærer i det, for å sikre at kjøttet forblir saftig.
+
+### 🐑 Lam
+
+For en mør, saftig stek av lam, forvarm ovnen din til 200°C. Som en generell regel, sikte på omtrent 60 minutter steketid per kilogram. Juster tilberedningstiden avhengig av hvor stekt du foretrekker lammekjøttet ditt. La alltid lammet hvile i 15-20 minutter før du skjærer i det.
+
+### 🐟 Fisk
+
+Fisk kan stekes effektivt ved 180°C. Imidlertid kan tilberedningstiden variere sterkt avhengig av type og tykkelse på fisken. Generelt kan steking i omtrent 25 minutter per kilogram fungere for mange typer. Fisken skal lett flake seg med en gaffel når den er ferdig.
+
+### 🐏 Sau
+
+Sau kan være litt vanskeligere ettersom det ofte kommer fra eldre sauer, noe som kan gjøre kjøttet tøffere. En saktere steking ved 200°C i omtrent 45 minutter per kilogram kan bidra til å bryte ned de tøffere muskelfibrene og resultere i en mør stek.
+
+### 🦃 Kalkun
+
+For en deilig stekt kalkun, bruk en ovn som er forvarmet til 180°C. I gjennomsnitt bør du steke kalkunen i omtrent 40 minutter per kilogram. Størrelsen og fyllingen på kalkunen kan imidlertid påvirke tilberedningstiden. Forsikre deg alltid om at kalkunen når en indre temperatur på 74°C før du tar den ut av ovnen.
+
+### 🦆 And
+
+For å oppnå en godt tilberedt and med sprø skorpe, stek ved en høyere temperatur på 200°C. Den generelle steketiden kan være rundt 50 minutter per kilogram, men dette kan variere sterkt avhengig av andens størrelse. Sjekk alltid den indre temperaturen, sikte på 74°C for helt stekt and, selv om noen foretrekker den litt rosa i midten.
+
+### 🐐 Geit
+
+Geitekjøtt kan variere sterkt i mørhet og smak, avhengig av dyrets alder og kosthold. Som et utgangspunkt kan du steke det ved 180°C i omtrent 75 minutter per kilogram. Juster tilberedningstid og temperatur etter behov, avhengig av det spesifikke snittet og ønsket grad av stek.
+
+### 🦌 Hjort
+
+Gitt dens magre natur, kan hjort tørke ut hvis det blir overstekt. For å unngå dette, stek det ved 180°C i omtrent 55 minutter per kilogram for en medium-rare stek. Bruk et kjøtttermometer for å sikre at den indre temperaturen er rundt 63°C for medium-rare.
+
+### 🐇 Kanin
+
+Kaninkjøtt er magert, mye som hjort, og bør ikke overstekes. Et godt utgangspunkt er steking ved 180°C i omtrent 40 minutter per kilogram. Sjekk alltid
+
+ for en indre temperatur på minst 71°C for å sikre at kjøttet er trygt å konsumere.
+
+Selv om kalkulatoren vår gir en pålitelig veiledning, er det viktig å huske at det er et tilnærmingsverktøy. Faktorer som ovnens ytelse, nøyaktigheten av temperaturinnstillingene, og hvordan du liker kjøttet ditt tilberedt, kan påvirke den faktiske steketiden. Derfor er det alltid en god idé å holde et nøye øye med steken din, spesielt når du tilbereder den for første gang.
+
+Hva mer er, vår Steketidskalkulator gir også ernæringsinformasjon for hver type kjøtt, noe som hjelper deg å forstå den ernæringsmessige verdien av steken du har valgt. Så, enten du er en nybegynnerkokk eller en erfaren sjef, er kalkulatoren vår designet for å hjelpe deg med å mestre kunsten å steke. God steking!
+""" 
+
+[install_app]
+  other = "Installer App"

@@ -1,0 +1,111 @@
+[Name]
+other = "Roasting Time Calculator"
+
+[IntefaceQuestion]
+others = "What type of meat are you cooking?"
+
+[Chicken] 
+  others = "🐔 Chicken"
+[Beef] 
+  others = "🐄 Beef"
+[Pork] 
+  others =  "🐖 Pork"
+[Lamb] 
+  others =  "🐑 Lamb"
+[Fish] 
+  others = "🐟 Fish"
+[Mutton]
+  others = "🐏 Mutton"
+[Turkey] 
+  others = "🦃 Turkey"
+[Duck] 
+  others = "🦆 Duck"
+[Goat] 
+  others = "🐐 Goat"
+[Venison] 
+  others =  "🦌 Venison"
+[Rabbit]
+  others = "🐇 Rabbit"
+
+[Intro]
+other = """
+# Your Guide to Perfect Roasting Times: How Long Should I Roast?
+
+Roasting is a quintessential cooking technique that brings out the rich, deep flavors in meat. However, finding the perfect roasting time can be hard. Our interactive Roasting Time Calculator is here to guide you on your journey to a delectable roast.
+
+## Roasting Time Examples
+
+### 🐔 Chicken
+
+Roasting a chicken at 180°C is an effective method to achieve a juicy interior and a crisp skin. The recommended roasting time is approximately 44 minutes per kilogram. To ensure the chicken is fully cooked, insert a meat thermometer into the thickest part of the bird, avoiding the bone. The internal temperature should reach 74°C. Don't forget to let the chicken rest for about 15 minutes before carving to allow the juices to redistribute.
+
+### 🐄 Beef
+
+To roast beef, preheat your oven to 200°C. A good rule of thumb is to cook it for approximately 60 minutes per kilogram for a medium roast. Of course, this can be adjusted if you prefer your beef more rare or well-done. Use a meat thermometer and aim for an internal temperature of 63°C for medium-rare, 71°C for medium, and 77°C for well-done. Allow the beef to rest for 15-20 minutes before carving to maintain juiciness.
+
+### 🐖 Pork
+
+For roasting pork, 180°C is a standard temperature. Given the variety of cuts, an approximate roasting time of 90 minutes per kilogram can serve as a guideline. The pork should be cooked until the internal temperature reaches 71°C. Allow the pork to rest for 10-15 minutes before slicing to ensure the meat remains moist.
+
+### 🐑 Lamb
+
+For a tender, succulent roast lamb, preheat your oven to 200°C. As a general rule, aim for approximately 60 minutes of roasting time per kilogram. Adjust your cooking time depending on how well-done you prefer your lamb. Always let the lamb rest for 15-20 minutes before carving.
+
+### 🐟 Fish
+
+Fish can be roasted effectively at 180°C. However, cooking time can vary greatly depending on the type and thickness of the fish. Generally, roasting for about 25 minutes per kilogram can work for many types. The fish should flake easily with a fork when it's done.
+
+### 🐏 Mutton
+
+Mutton can be a bit trickier as it often comes from older sheep, which can make the meat tougher. A slower roast at 200°C for about 45 minutes per kilogram can help break down the tougher muscle fibers and result in a tender roast.
+
+### 🦃 Turkey
+
+For a deliciously roasted turkey, use an oven preheated to 180°C. On average, you should roast your turkey for about 40 minutes per kilogram. However, the size and stuffing of the turkey can affect the cooking time. Always make sure your turkey reaches an internal temperature of 74°C before removing it from the oven.
+
+### 🦆 Duck
+
+To achieve a well-cooked duck with a crispy skin, roast at a higher temperature of 200°C. The general roasting time might be around 50 minutes per kilogram, but this could vary greatly depending on the size of the duck. Always check the internal temperature, aiming for 74°C for fully cooked duck, though some prefer it slightly pink in the middle.
+
+### 🐐 Goat
+
+Goat meat can vary greatly in tenderness and flavor depending on the age and diet of the animal. As a starting point, you can roast it at 180°C for about 75 minutes per kilogram. Adjust cooking time and temperature as needed depending on the specific cut and desired level of doneness.
+
+### 🦌 Venison
+
+Given its lean nature, venison can dry out if overcooked. To avoid this, roast it at 180°C for about 55 minutes per kilogram for a medium-rare roast. Use a meat thermometer to ensure the internal temperature is around 63°C for medium-rare.
+
+### 🐇 Rabbit
+
+Rabbit is a lean meat, much like venison, and shouldn't be overcooked. A good starting point is roasting at 180°C for about 40 minutes per kilogram. Always check for an internal temperature of at least 71°C to ensure the meat is safe to consume.
+
+While our calculator provides a reliable guideline, it's important to remember that it's an approximation tool. Factors such as oven performance, the accuracy of temperature settings, and how you like your meat cooked can influence the actual roasting time. Therefore, it's always a good idea to keep a close eye on your roast, especially when you're cooking it for the first time.
+
+What's more, our Roasting Time Calculator also provides nutritional information for each type of meat, helping you understand the nutritional value of your chosen roast. So, whether you're a novice cook or a seasoned chef, our calculator is designed to help you master the art of roasting. Happy roasting!
+""" 
+
+[nutrition_chicken]
+other = """ 
+### Nutrition Information for Chicken (per 100g)
+| Nutrient        | Amount |
+|-----------------|-------:|
+| Total Fat       | 21 g   |
+| Saturated fat   | 9 g    |
+| Cholesterol     | 97 mg  |
+| Sodium          | 72 mg  |
+| Potassium       | 310 mg |
+| Total Carbohydrate | 0 g  |
+| Dietary fiber   | 0 g    |
+| Sugar           | 0 g    |
+| Protein         | 25 g   |
+| Vitamin C       | 0%     |
+| Calcium         | 1%     |
+| Iron            | 10%    |
+| Vitamin D       | 0%     |
+| Vitamin B6      | 5%     |
+| Cobalamin       | 43%    |
+| Magnesium       | 5%     |
+""" 
+
+[install_app]
+  other = "Install APP"
