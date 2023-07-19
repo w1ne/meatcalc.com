@@ -1,0 +1,90 @@
+[Name]
+other = "Stektidskalkylator"
+
+[IntefaceQuestion]
+others = "Vilken typ av kött ska du tillaga?"
+
+[Chicken] 
+  others = "🐔 Kyckling"
+[Beef] 
+  others = "🐄 Nötkött"
+[Pork] 
+  others =  "🐖 Fläskkött"
+[Lamb] 
+  others =  "🐑 Lammkött"
+[Fish] 
+  others = "🐟 Fisk"
+[Mutton]
+  others = "🐏 Fårfkött"
+[Turkey] 
+  others = "🦃 Kalkon"
+[Duck] 
+  others = "🦆 Anka"
+[Goat] 
+  others = "🐐 Getkött"
+[Venison] 
+  others =  "🦌 Rådjurskött"
+[Rabbit]
+  others = "🐇 Kaninkött"
+
+[Intro]
+other = """
+# Din guide till perfekt stektid: Hur länge ska jag rosta?
+
+Att rosta är en grundläggande tillagningsmetod som framhäver köttets rika, djupa smaker. Men att hitta den perfekta stektiden kan vara svårt. Vår interaktiva Stektidskalkylator är här för att vägleda dig på din resa till en utsökt rost.
+
+## Exempel på Stektider
+
+### 🐔 Kyckling
+
+Att rosta en kyckling vid 180°C är en effektiv metod för att uppnå en saftig inre del och en krispig yta. Den rekommenderade rosttiden är ungefär 44 minuter per kilogram. För att säkerställa att kycklingen är helt tillagad, stick in en kötttermometer i den tjockaste delen av fågeln, undvik benet. Den inre temperaturen ska nå 74°C. Glöm inte att låta kycklingen vila i cirka 15 minuter innan du skär upp den för att låta safterna fördelas om.
+
+### 🐄 Nötkött
+
+För att rosta nötkött, förvärma ugnen till 200°C. En bra tumregel är att tillaga det i ungefär 60 minuter per kilogram för en mediumrostning. Detta kan justeras om du föredrar ditt kött mer sällsynt eller välstekt. Använd en kötttermometer och sikta på en intern temperatur på 63°C för medium rare, 71°C för medium och 77°C för välstekt. Låt nötköttet vila i 15-20 minuter innan du skär upp det för att bibehålla saftigheten.
+
+### 🐖 Fläskkött
+
+För att rosta fläskkött är 180°C en standardtemperatur. Med tanke på variationen av styckningsdelar, kan en ungefärlig rostningstid på 90 minuter per kilogram fungera som en riktlinje. Fläskköttet bör tillagas tills den interna temperaturen når 71°C. Låt fläskköttet vila i 10-15 minuter innan du skär upp det för att säkerställa att köttet förblir saftigt.
+
+### 🐑 Lammkött
+
+För en mör, saftig rostad lammstek, förvärma din ugn till 200°C. Som en allmän regel, sikta på ungefär 60 minuter rostningstid per kilogram. Justera din tillagningstid beroende på hur väl tillagad du föredrar ditt lamm. Låt alltid lammet vila i 15-20 minuter innan du skär upp det.
+
+### 🐟 Fisk
+
+Fisk kan effektivt rostas vid 180°C. Tillagningstiden kan dock variera mycket beroende på typ och tjocklek på fisken. Generellt sett kan en rostning på cirka 25 minuter per kilogram fungera för många typer. Fisken ska flagna lätt med en gaffel när den är klar.
+
+### 🐏 Fårfkött
+
+Fårfkött kan vara lite knepigare eftersom det ofta kommer från äldre får, vilket kan göra köttet tuffare. En långsammare rostning vid 200°C i cirka 45 minuter per kilogram kan hjälpa till att bryta ner de tuffare muskelfibrerna och resultera i en mör rostbiff.
+
+### 🦃 Kalkon
+
+För en läcker rostad kalkon, använd en ugn som är förvärmd till 180°C. I genomsnitt bör du rosta din kalkon i cirka 40
+
+ minuter per kilogram. Dock kan storleken och fyllningen på kalkonen påverka tillagningstiden. Se alltid till att din kalkon når en intern temperatur på 74°C innan du tar ut den ur ugnen.
+
+### 🦆 Anka
+
+För att uppnå en väl tillagad anka med krispig hud, rosta vid en högre temperatur på 200°C. Den allmänna rostningstiden kan vara runt 50 minuter per kilogram, men detta kan variera mycket beroende på ankans storlek. Kontrollera alltid den interna temperaturen, sikta på 74°C för helt tillagad anka, även om vissa föredrar den något rosa i mitten.
+
+### 🐐 Getkött
+
+Getkött kan variera mycket i mörhet och smak beroende på djurets ålder och kost. Som en utgångspunkt kan du rosta det vid 180°C i cirka 75 minuter per kilogram. Justera tillagningstid och temperatur efter behov beroende på den specifika styckningen och önskad nivå av tillagning.
+
+### 🦌 Rådjurskött
+
+Med tanke på dess magra natur, kan rådjurskött torka ut om det överkokas. För att undvika detta, rosta det vid 180°C i cirka 55 minuter per kilogram för en medium-rare rost. Använd en kötttermometer för att säkerställa att den interna temperaturen är runt 63°C för medium-rare.
+
+### 🐇 Kaninkött
+
+Kaninkött är ett magert kött, mycket likt rådjurskött, och bör inte överkokas. En bra utgångspunkt är att rosta vid 180°C i cirka 40 minuter per kilogram. Kontrollera alltid en intern temperatur på minst 71°C för att säkerställa att köttet är säkert att äta.
+
+Medan vår kalkylator ger en tillförlitlig riktlinje, är det viktigt att komma ihåg att det är ett verktyg för uppskattning. Faktorer som ugnens prestanda, temperaturens noggrannhet och hur du föredrar ditt kött tillagat kan påverka den faktiska rostningstiden. Därför är det alltid en bra idé att hålla ett nära öga på din rost, särskilt när du tillagar den för första gången.
+
+Dessutom ger vår Stektidskalkylator också näringsinformation för varje typ av kött, vilket hjälper dig att förstå näringsvärdet av din valda rost. Så, oavsett om du är en nybörjarkock eller en erfaren kock, är vår kalkylator utformad för att hjälpa dig att bemästra konsten att rosta. Lycka till med rostningen!
+""" 
+
+[install_app]
+  other = "Installera App"

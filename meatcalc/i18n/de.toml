@@ -1,0 +1,90 @@
+[Name]
+other = "Röstzeitrechner"
+
+[IntefaceQuestion]
+others = "Welche Fleischsorte kochen Sie?"
+
+[Chicken] 
+  others = "🐔 Huhn"
+[Beef] 
+  others = "🐄 Rind"
+[Pork] 
+  others =  "🐖 Schwein"
+[Lamb] 
+  others =  "🐑 Lamm"
+[Fish] 
+  others = "🐟 Fisch"
+[Mutton]
+  others = "🐏 Hammel"
+[Turkey] 
+  others = "🦃 Truthahn"
+[Duck] 
+  others = "🦆 Ente"
+[Goat] 
+  others = "🐐 Ziege"
+[Venison] 
+  others =  "🦌 Wild"
+[Rabbit]
+  others =  "🦌 Kaninchen"
+
+[Intro]
+other = """
+# Ihr Leitfaden zu perfekten Garzeiten: Wie lange sollte ich braten?
+
+Das Braten ist eine grundlegende Kochtechnik, die die reichen, tiefen Aromen im Fleisch hervorhebt. Die perfekte Garzeit zu finden, kann jedoch ein kulinarisches Rätsel sein. Aber keine Sorge, unser interaktiver Garzeitrechner ist hier, um Sie auf Ihrer Reise zu einem köstlichen Braten zu führen.
+
+## Beispiele für Garzeiten
+
+### 🐔 Huhn
+
+Ein Huhn bei 180°C zu braten, ist eine effektive Methode, um ein saftiges Inneres und eine knusprige Haut zu erreichen. Die empfohlene Garzeit beträgt etwa 44 Minuten pro Kilogramm. Um sicherzustellen, dass das Huhn vollständig gekocht ist, stecken Sie ein Fleischthermometer in den dicksten Teil des Vogels, ohne den Knochen zu berühren. Die Innentemperatur sollte 74°C erreichen. Vergessen Sie nicht, das Huhn etwa 15 Minuten vor dem Tranchieren ruhen zu lassen, um die Säfte neu zu verteilen.
+
+### 🐄 Rind
+
+Um Rindfleisch zu braten, heizen Sie Ihren Ofen auf 200°C vor. Eine gute Faustregel ist, es etwa 60 Minuten pro Kilogramm für einen mittleren Braten zu garen. Dies kann natürlich angepasst werden, wenn Sie Ihr Rindfleisch lieber seltener oder durchgebraten mögen. Verwenden Sie ein Fleischthermometer und zielen Sie auf eine Innentemperatur von 63°C für medium-rare, 71°C für medium und 77°C für gut durchgebraten. Lassen Sie das Rindfleisch 15-20 Minuten vor dem Tranchieren ruhen, um die Saftigkeit zu erhalten.
+
+### 🐖 Schwein
+
+Für das Braten von Schweinefleisch ist 180°C eine Standardtemperatur. Angesichts der Vielfalt der Schnitte kann eine ungefähre Garzeit von 90 Minuten pro Kilogramm als Richtlinie dienen. Das Schweinefleisch sollte gekocht werden, bis die Innentemperatur 71°C erreicht. Lassen Sie das Schweinefleisch 10-15 Minuten vor dem Schneiden ruhen, um sicherzustellen, dass das Fleisch saftig bleibt.
+
+### 🐑 Lamm
+
+Für ein zartes, saftiges Lammbraten, heizen Sie Ihren Ofen auf 200°C vor. Als allgemeine Regel gilt, dass Sie etwa 60 Minuten Garzeit pro Kilogramm anstreben sollten. Passen Sie Ihre Garzeit an, je nachdem, wie durchgebraten Sie Ihr Lamm bevorzugen. Lassen Sie das Lamm immer 15-20 Minuten vor dem Tranchieren ruhen.
+
+### 🐟 Fisch
+
+Fisch kann effektiv bei 180°C gebraten werden. Die Garzeit kann jedoch stark variieren, abhängig von der Art und Dicke des Fisches. Im Allgemeinen kann eine Garzeit von etwa 25 Minuten pro Kilogramm für viele Arten funktionieren. Der Fisch sollte leicht mit einer Gabel zerfallen, wenn er fertig ist.
+
+### 🐏 Hammel
+
+Hammel kann etwas kniffliger sein, da er oft von älteren Schafen stammt, was das Fleisch zäher machen kann. Ein langsamerer Braten bei 200°C für etwa 45 Minuten pro Kilogramm kann dazu beitragen, die zäheren Muskelfasern abzubauen und zu einem zarten Braten zu führen.
+
+### 🦃 Truthahn
+
+Für einen köstlich gebratenen Truthahn verwenden Sie einen auf 180°C vorgeheizten Ofen. Im Durchschnitt sollten Sie Ihren Truthahn etwa 40 Minuten pro Kilogramm braten. Die Größe und Füllung des Truthahns kann jedoch die Garzeit beeinflussen. Stellen Sie immer sicher, dass Ihr Truthahn eine Innentemperatur von 74°C erreicht, bevor Sie ihn aus dem Ofen nehmen.
+
+### 🦆 Ente
+
+Um eine gut gegarte Ente mit knuspriger Haut zu erhalten, braten Sie sie bei einer höheren Temperatur von 200°C. Die allgemeine Garzeit könnte etwa 50 Minuten pro Kilogramm betragen, aber dies könnte stark variieren, je nach der Größe der Ente. Überprüfen Sie immer die Innentemperatur, zielen Sie auf 74°C für eine vollständig gegarte Ente, obwohl manche sie in der Mitte leicht rosa bevorzugen.
+
+### 🐐 Ziege
+
+Ziegenfleisch kann stark in Zärtlichkeit und Geschmack variieren, abhängig vom Alter und der Ernährung des Tieres. Als Ausgangspunkt können Sie es bei 180°C etwa 75 Minuten pro Kilogramm braten. Passen Sie die Garzeit und Temperatur je nach Bedarf an, abhängig vom spezifischen Schnitt und dem gewünschten Gargrad.
+
+### 🦌 Wild (Venison)
+
+Aufgrund seiner mageren Natur kann Wild austrocknen, wenn es überkocht wird. Um dies zu vermeiden, braten Sie es bei 180°C etwa 55 Minuten pro Kilogramm für einen medium-rare Braten. Verwenden Sie ein Fleischthermometer, um sicherzustellen, dass die Innentemperatur etwa 63°C für medium-rare beträgt.
+
+### 🐇 Kaninchen
+
+Kaninchen ist ein mageres Fleisch, ähnlich wie Wild, und sollte nicht überkocht werden. Ein guter Ausgangspunkt ist das Braten bei 180°C etwa 40 Minuten pro Kilogramm. Überprüfen Sie immer auf eine Innentemperatur von mindestens 71°C, um sicherzustellen, dass das Fleisch sicher verzehrt werden kann.
+
+Obwohl unser Rechner eine zuverlässige Richt
+
+linie bietet, ist es wichtig zu bedenken, dass es sich um ein Annäherungswerkzeug handelt. Faktoren wie die Leistung des Ofens, die Genauigkeit der Temperatureinstellungen und wie Sie Ihr Fleisch gekocht haben möchten, können die tatsächliche Garzeit beeinflussen. Deshalb ist es immer eine gute Idee, ein wachsames Auge auf Ihren Braten zu haben, besonders wenn Sie ihn zum ersten Mal kochen.
+
+Darüber hinaus bietet unser Garzeitrechner auch Nährwertinformationen für jede Fleischsorte, die Ihnen helfen, den Nährwert Ihres gewählten Bratens zu verstehen. Ob Sie also ein Anfängerkoch oder ein erfahrener Chef sind, unser Rechner ist darauf ausgelegt, Ihnen zu helfen, die Kunst des Bratens zu meistern. Gutes Braten!
+"""
+
+[install_app]
+  other = "App installieren"

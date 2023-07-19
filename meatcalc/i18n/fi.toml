@@ -1,0 +1,99 @@
+[Name]
+other = "Paahtoaikalaskin"
+
+[IntefaceQuestion]
+others = "Millaista lihaa keität?"
+
+[Chicken]
+   muut = "🐔 Kana"
+[Beef]
+   muut = "🐄 Naudanliha"
+[Pork]
+   muut = "🐖 Porsaan"
+[Lamb]
+   muut = "🐑 lammas"
+[Fish]
+   muut = "🐟 Kala"
+[Mutton]
+   muut = "🐏 Lampaanliha"
+[Turkey]
+   muut = "🦃 Turkki"
+[Duck]
+   muut = "🦆 Ankka"
+[Goat]
+   muut = "🐐 Vuohi"
+[Venison]
+   muut = "🦌 Hirvenliha"
+[Rabbit]
+   muut = "🐇 Kani"
+
+[Intro]
+other = """
+# Opas täydellisiin paistoaikoihin: Kuinka kauan minun pitäisi paistaa?
+
+Paistaminen on oleellinen keittotekniikka, joka tuo esiin lihan rikkaat, syvät maut. Kuitenkin täydellisen paistoajan löytäminen voi olla vaikeaa. Interaktiivinen paistoaikalaskurimme on täällä auttaakseen sinua matkallasi herkullisen paistin äärelle.
+
+## Paistoaikojen esimerkkejä
+
+### 🐔 Kana
+
+Kanan paistaminen 180°C:ssä on tehokas tapa saavuttaa mehevä sisus ja rapea iho. Suositeltu paistoaika on noin 44 minuuttia kilogrammaa kohden. Varmistaaksesi, että kana on täysin kypsä, työnnä lihalämpömittari linnun paksuimpaan osaan välttäen luuta. Sisäisen lämpötilan pitäisi olla 74°C. Älä unohda antaa kanan levätä noin 15 minuuttia ennen leikkaamista, jotta mehut jakautuvat uudelleen.
+
+### 🐄 Nauta
+
+Paistaaksesi naudanlihaa, esilämmitä uuni 200°C:een. Hyvä nyrkkisääntö on paistaa sitä noin 60 minuuttia kilogrammaa kohden keskikokoista paistia varten. Tämä voidaan säätää, jos haluat naudanlihasi joko harvinaisempana tai täysin kypsänä. Käytä lihalämpömittaria ja pyri sisäiseen lämpötilaan 63°C:een harvinaiselle, 71°C:een keskikypsälle ja 77°C:een täysin kypsälle. Anna naudanlihan levätä 15-20 minuuttia ennen leikkaamista, jotta se pysyy mehukkaana.
+
+### 🐖 Sika
+
+Sianlihan paistamiseen 180°C on standardilämpötila. Ottaen huomioon leikkausten moninaisuuden, noin 90 minuutin paistoaika kilogrammaa kohden voi toimia ohjeena. Sianliha pitäisi kypsentää, kunnes sisälämpötila on 71°C. Anna sianlihan levätä 10-15 minuuttia ennen leikkaamista, jotta liha pysyy kosteana.
+
+### 🐑 Lammas
+
+Täyteläisen, mehukkaan paistetun lampaan saamiseksi, esilämmitä uunisi 200°C:een. Yleisesti ottaen pyri noin 60 minuutin paistoaikaan kilogrammaa kohden. Säädä keittoaikaasi sen mukaan, kuinka kypsää lampaasi haluat. Anna lampaan levätä aina 15-20 minuuttia ennen leikkaamista.
+
+### 🐟 Kala
+
+Kalaa voidaan paistaa tehokkaasti 180°C:ssä. Kuitenkin keittoaika voi vaihdella suuresti riippuen kalan tyypistä ja paksuudesta. Yleisesti ottaen noin 25 minuutin paistoaika kilogrammaa kohden voi toimia monissa tapauksissa. Kala pitäisi olla helppo hajottaa haarukalla, kun se on kypsää.
+
+### 🐏 Lammas (vanha)
+
+Vanhan lampaan liha voi olla hieman hankalampaa, koska se tulee usein vanhemmista lampaista, mikä voi tehdä lihasta kovempaa. Hitaimmalla paistolla 200°C:ssä noin 45 minuutin ajan kilogrammaa kohden voi auttaa hajoittamaan kovemmat lihaskuidut ja johtaa herkulliseen paistiin.
+
+### 🦃 Kalkkuna
+
+Herkullisen paistetun kalkkunan saamiseksi, käytä esilämmitettyä uunia, jonka lämpötila on 180°C. Keskimäärin sinun pitäisi paistaa kalkkunasi noin 40 minuuttia kilogrammaa kohden. Kuitenkin kalkkunan koko ja täyte voivat vaikuttaa keittoaikaan. Varmista aina, että kalkkunasi saavuttaa 74°C sisäisen lämpötilan ennen kuin otat sen uunista.
+
+### 🦆 Ankka
+
+Saataksesi hyvin kypsennetyn ankan, jolla on rapea iho, paista sitä korkeammassa lämpötilassa, 200°C:ssä. Yleinen paistoaika voi olla noin 50 minuuttia kilogrammaa kohden, mutta tämä voi vaihdella suuresti riippuen ankan koosta. Tarkista aina sisäinen lämpötila, pyri 74°C:een täysin kypsennettyä ankkaa varten, vaikka jotkut pitävät siitä, kun se on hieman vaaleanpunaista keskellä.
+
+### 🐐 Vuohi
+
+Vuohenliha voi vaihdella suuresti pehmeydessään ja maussaan riippuen eläimen iästä ja ruokavaliosta. Lähtökohtana voit paistaa sitä 180°C:ssä noin 75 minuuttia kilogrammaa kohden. Säädä keittoaikaa ja lämpötilaa tarpeen mukaan riippuen tietystä leikkeestä ja halutusta kypsyysasteesta.
+
+### 🦌 Hirvi
+
+Hirvenlihan ollessa vähärasvaista, se voi kuivua, jos sitä kypsennetään liikaa. Välttääksesi tämän, paista sitä 180°C:ssä noin 55 minuuttia kilogrammaa kohden keskiraakaan paistiin. Käytä lihalämpömittaria varmistaaksesi,
+
+ että sisäinen lämpötila on noin 63°C keskiraakalle.
+
+### 🐇 Kani
+
+Kani on vähärasvainen liha, aivan kuten hirvi, eikä sitä pitäisi ylikypsentää. Hyvä lähtökohta on paistaminen 180°C:ssä noin 40 minuuttia kilogrammaa kohden. Tarkista aina, että sisälämpötila on vähintään 71°C varmistaaksesi, että liha on turvallista syödä.
+
+Vaikka laskurimme tarjoaa luotettavan ohjeen, on tärkeää muistaa, että se on vain arviointityökalu. Tekijät kuten uunin teho, lämpötila-asetusten tarkkuus ja miten haluat lihasi kypsennettävän, voivat vaikuttaa todelliseen paistoaikaan. Siksi on aina hyvä idea pitää silmällä paistiasi, varsinkin kun paistat sitä ensimmäistä kertaa.
+
+Lisäksi paistoaikalaskurimme tarjoaa ravitsemustiedot jokaiselle lihatyypille, auttaen sinua ymmärtämään valitsemasi paistin ravintoarvoja. Joten olitpa aloittelija kokki tai kokenut mestarikokki, laskurimme on suunniteltu auttamaan sinua hallitsemaan paistamisen taidetta. Hyvää paistamista!
+
+"""
+[keepScreenOn]
+other = "Pidä näyttö päällä"
+
+[auto]
+other = "Auto"
+
+[clickmic]
+other = "Paina mikrofonia aloittaaksesi virityksen"
+
+[install_app]
+  other = "Asenna sovellus"

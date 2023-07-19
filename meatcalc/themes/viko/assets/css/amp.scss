@@ -58,12 +58,11 @@ table {
 
 $body-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default
 $gap: 1.5rem;
-$body-color: #4a4a4a;
+$body-color: #282c35;
 $title-color: #363636;
 $link-color: #48c774;
 
 html {
-  background-color: white;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

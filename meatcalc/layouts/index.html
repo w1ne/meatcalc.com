@@ -1,0 +1,16 @@
+{{ define "main" }}
+    {{ $demo := .Site.Params.demo_url }}
+    {{ $homeImg := resources.Get "images/home.png" }}
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-full has-text-centered">
+                        <p class="mb-5">{{ .Site.Params.home.intro }}</p>
+                        {{- partial "meat_calculator_metric.html" . -}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+{{ end }}

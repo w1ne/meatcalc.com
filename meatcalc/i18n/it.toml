@@ -1,0 +1,90 @@
+[Nome]
+other = "Calcolatore del Tempo di Arrosto"
+
+[IntefaceQuestion]
+others = "Quale tipo di carne stai cucinando?"
+
+[Chicken] 
+  others = "🐔 Pollo"
+[Beef] 
+  others = "🐄 Manzo"
+[Pork] 
+  others =  "🐖 Maiale"
+[Lamb] 
+  others =  "🐑 Agnello"
+[Fish] 
+  others = "🐟 Pesce"
+[Mutton]
+  others = "🐏 Montone"
+[Turkey] 
+  others = "🦃 Tacchino"
+[Duck] 
+  others = "🦆 Anatra"
+[Goat] 
+  others = "🐐 Capra"
+[Venison] 
+  others =  "🦌 Cervo"
+[Rabbit]
+  others = "🐇 Coniglio"
+
+[Intro]
+other = """
+# La tua guida ai tempi di arrosto perfetti: quanto tempo dovrei arrostire?
+
+L'arrosto è una tecnica di cottura fondamentale che esalta i sapori ricchi e profondi della carne. Tuttavia, trovare il tempo di cottura al forno perfetto può essere difficile. Il nostro Calcolatore del Tempo di Arrosto interattivo è qui per guidarti nel tuo viaggio verso un delizioso arrosto.
+
+## Esempi di Tempo di Arrosto
+
+### 🐔 Pollo
+
+Arrostire un pollo a 180°C è un metodo efficace per ottenere un interno succoso e una pelle croccante. Il tempo di cottura consigliato è di circa 44 minuti per chilogrammo. Per assicurarsi che il pollo sia completamente cotto, inserire un termometro per carne nella parte più spessa dell'uccello, evitando l'osso. La temperatura interna dovrebbe raggiungere 74°C. Non dimenticare di lasciar riposare il pollo per circa 15 minuti prima di affettarlo per permettere ai succhi di redistribuirsi.
+
+### 🐄 Manzo
+
+Per arrostire il manzo, preriscalda il forno a 200°C. Una buona regola pratica è cuocerlo per circa 60 minuti per chilogrammo per un arrosto medio. Naturalmente, questo può essere aggiustato se preferisci il tuo manzo più al sangue o più cotto. Usa un termometro per carne e mira ad una temperatura interna di 63°C per medio-raro, 71°C per medio, e 77°C per ben cotto. Lascia riposare il manzo per 15-20 minuti prima di affettarlo per mantenere la succosità.
+
+### 🐖 Maiale
+
+Per arrostire il maiale, 180°C è una temperatura standard. Data la varietà di tagli, un tempo di arrosto approssimativo di 90 minuti per chilogrammo può servire come guida. Il maiale dovrebbe essere cotto fino a quando la temperatura interna raggiunge 71°C. Lascia riposare il maiale per 10-15 minuti prima di affettarlo per garantire che la carne rimanga umida.
+
+### 🐑 Agnello
+
+Per un tenero e succulento arrosto di agnello, preriscalda il forno a 200°C. Come regola generale, mira a circa 60 minuti di tempo di cottura per chilogrammo. Ajusta il tuo tempo di cottura a seconda di quanto preferisci il tuo agnello. Lascia sempre riposare l'agnello per 15-20 minuti prima di affettarlo.
+
+### 🐟 Pesce
+
+Il pesce può essere arrostito efficacemente a 180°C. Tuttavia, il tempo di cottura può variare molto a seconda del tipo e dello spessore del pesce. In generale, arrostire per circa 25 minuti per chilogrammo può funzionare per molti tipi. Il pesce dovrebbe sfaldarsi facilmente con una forchetta quando è fatto.
+
+### 🐏 Montone
+
+Il montone può essere un po' più difficile in quanto proviene spesso da pecore più vecchie, il che può rendere la carne più dura. Un arrosto più lento a 200°C per circa 45 minuti per chilogrammo può aiutare a spezzare le fibre muscolari più dure e risultare in un arrosto tenero.
+
+### 🦃 Tacchino
+
+Per un delizioso tacchino arrostito, usa un forno preriscaldato a 180°C. In media, dovresti arrostire il tuo tacchino per circa 40 minuti per chilogrammo. Tuttavia, la dimensione e il ripieno del tacchino possono influenzare il tempo di cottura. Assicurati sempre che il tuo tacchino raggiunga una temperatura interna di 74°C prima di rimuoverlo dal forno.
+
+### 🦆 Anatra
+
+Per ottenere un'anatra ben cotta con la pelle croccante, arrostisci a una temperatura più alta di 200°C. Il tempo generale di arrosto potrebbe essere intorno ai 50 minuti per chilogrammo, ma questo potrebbe variare molto a seconda della dimensione dell'anatra. Controlla sempre la temperatura interna, mirando a 74°C per un'anatra completamente cotta, anche se alcuni preferiscono che sia leggermente rosa al centro.
+
+### 🐐 Capra
+
+La carne di capra può variare notevolmente in tenerezza e sapore a seconda dell'età e della dieta dell'animale. Come punto di partenza, puoi arrostirla a 180°C per circa 75 minuti per chilogrammo. Ajusta il tempo di cottura e la temperatura come necessario a seconda del taglio specifico e del livello di cottura desiderato.
+
+### 🦌 Cervo
+
+Data la sua natura magra, il cervo può seccarsi se cotto eccessivamente. Per evitarlo, arrostiscilo a 180°C per circa 55 minuti per chilogrammo per un arrosto medio-raro. Usa un termometro per carne per assicurarti che la temperatura interna sia di circa 63°C per il medio-raro.
+
+### 🐇 Coniglio
+
+Il coniglio è una carne magra, molto simile al cervo, e non dovrebbe essere cotto eccessivamente. Un buon punto di partenza è arrostire a 180°C per circa 40 minuti per chilogrammo. Controlla sempre che la temperatura interna sia di almeno 71°C per assicurarti che la carne
+
+ sia sicura da consumare.
+
+Mentre il nostro calcolatore fornisce una guida affidabile, è importante ricordare che è uno strumento di approssimazione. Fattori come le prestazioni del forno, l'accuratezza delle impostazioni della temperatura, e come ti piace la carne cotta possono influenzare il tempo di arrosto effettivo. Pertanto, è sempre una buona idea tenere d'occhio il tuo arrosto, specialmente quando lo stai cucinando per la prima volta.
+
+Inoltre, il nostro Calcolatore del Tempo di Arrosto fornisce anche informazioni nutrizionali per ogni tipo di carne, aiutandoti a capire il valore nutrizionale del tuo arrosto scelto. Quindi, che tu sia un cuoco alle prime armi o un cuoco esperto, il nostro calcolatore è progettato per aiutarti a padroneggiare l'arte dell'arrosto. Buon arrosto!
+""" 
+
+[install_app]
+  other = "Installa l'app"

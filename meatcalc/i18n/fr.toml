@@ -1,0 +1,90 @@
+[Name]
+other = "Calculateur de Temps de Rôtissage"
+
+[IntefaceQuestion]
+others = "Quel type de viande cuisinez-vous?"
+
+[Chicken] 
+  others = "🐔 Poulet"
+[Beef] 
+  others = "🐄 Bœuf"
+[Pork] 
+  others =  "🐖 Porc"
+[Lamb] 
+  others =  "🐑 Agneau"
+[Fish] 
+  others = "🐟 Poisson"
+[Mutton]
+  others = "🐏 Mouton"
+[Turkey] 
+  others = "🦃 Dinde"
+[Duck] 
+  others = "🦆 Canard"
+[Goat] 
+  others = "🐐 Chèvre"
+[Venison] 
+  others =  "🦌 Venaison"
+[Rabbit]
+  others = "🐇 Lapin"
+
+[Intro]
+other = """
+# Votre Guide des Temps de Rôtissage Parfaits : Combien de Temps Dois-je Rôtir?
+
+La rôtissage est une technique de cuisine quintessentielle qui fait ressortir les saveurs riches et profondes de la viande. Cependant, trouver le temps de rôtissage parfait peut être difficile. Notre Calculateur de Temps de Rôtissage interactif est là pour vous guider dans votre quête d'un rôti délectable.
+
+## Exemples de Temps de Rôtissage
+
+### 🐔 Poulet
+
+Rôtir un poulet à 180°C est une méthode efficace pour obtenir un intérieur juteux et une peau croustillante. Le temps de rôtissage recommandé est d'environ 44 minutes par kilogramme. Pour vous assurer que le poulet est bien cuit, insérez un thermomètre à viande dans la partie la plus épaisse de l'oiseau, en évitant l'os. La température interne doit atteindre 74°C. N'oubliez pas de laisser le poulet reposer environ 15 minutes avant de le découper pour permettre aux jus de se redistribuer.
+
+### 🐄 Bœuf
+
+Pour rôtir du bœuf, préchauffez votre four à 200°C. Une bonne règle de base est de le cuire pendant environ 60 minutes par kilogramme pour une cuisson moyenne. Bien sûr, cela peut être ajusté si vous préférez votre bœuf plus saignant ou bien cuit. Utilisez un thermomètre à viande et visez une température interne de 63°C pour le medium-rare, 71°C pour le medium, et 77°C pour le bien cuit. Laissez le bœuf reposer pendant 15-20 minutes avant de le découper pour maintenir sa jutosité.
+
+### 🐖 Porc
+
+Pour rôtir du porc, 180°C est une température standard. Compte tenu de la variété des morceaux, un temps de rôtissage approximatif de 90 minutes par kilogramme peut servir de guide. Le porc doit être cuit jusqu'à ce que la température interne atteigne 71°C. Laissez le porc reposer pendant 10-15 minutes avant de le trancher pour que la viande reste moelleuse.
+
+### 🐑 Agneau
+
+Pour un rôti d'agneau tendre et succulent, préchauffez votre four à 200°C. En règle générale, comptez environ 60 minutes de temps de rôtissage par kilogramme. Ajustez votre temps de cuisson en fonction de la cuisson que vous préférez pour votre agneau. Laissez toujours l'agneau reposer pendant 15-20 minutes avant de le découper.
+
+### 🐟 Poisson
+
+Le poisson peut être efficacement rôti à 180°C. Cependant, le temps de cuisson peut varier considérablement en fonction du type et de l'épaisseur du poisson. En général, un temps de rôtissage d'environ 25 minutes par kilogramme peut convenir à de nombreux types. Le poisson doit se défaire facilement à la fourchette lorsqu'il est cuit.
+
+### 🐏 Mouton
+
+Le mouton peut être un peu plus délicat car il provient souvent de moutons plus âgés, ce qui peut rendre la viande plus dure. Un rôtissage plus lent à 200°C pendant environ 45 minutes par kilogramme peut aider à décomposer les fibres musculaires plus dures et donner un rôti tendre.
+
+### 🦃 Dinde
+
+Pour une dinde délicieusement rôtie, utilisez un four préchauffé à 180°C. En moyenne, vous devriez rôtir votre dinde pendant environ 40 minutes par kilogramme. Cependant, la taille et la farce de la dinde peuvent affecter le temps de cuisson. Assurez-vous toujours que votre dinde atteint une température interne de 74°C avant de la sortir du four.
+
+### 🦆 Canard
+
+Pour obtenir un canard bien cuit avec une peau croustillante, rôtissez-le à une température plus élevée de 200°C. Le temps de rôtissage général pourrait être d'environ 50 minutes par kilogramme, mais cela pourrait varier considérablement en fonction de la taille du canard. Vérifiez toujours la température interne, visant 74°C pour un canard bien cuit, bien que certains le préfèrent légèrement rose à l'intérieur.
+
+### 🐐 Chèvre
+
+La viande de chèvre peut varier considérablement en tendreté et en saveur en fonction de l'âge et de l'alimentation de l'animal. Comme point de départ, vous pouvez la rôtir à 180°C pendant environ 75 minutes par kilogramme. Ajustez le temps et la température de cuisson au besoin en fonction de la coupe spécifique et du niveau de cuisson souhaité.
+
+### 🦌 Venaison
+
+Étant donné sa nature maigre, la venaison peut se dessécher si elle est trop cuite. Pour éviter cela, rôtissez-la à 180°C pendant environ 55 minutes par kilogramme pour une cuisson medium-rare. Utilisez un thermomètre à viande pour vous assurer que la température interne est d'environ 63°C pour une cuisson medium-rare.
+
+### 🐇 Lapin
+
+Le lapin est une viande maigre, tout comme la venaison, et ne doit pas être trop cuit. Un bon point de départ est de le rôtir à 180°C pendant environ 40 minutes par kilogram
+
+me. Vérifiez toujours qu'il a une température interne d'au moins 71°C pour vous assurer que la viande est sûre à consommer.
+
+Bien que notre calculateur fournit un guide fiable, il est important de se rappeler qu'il s'agit d'un outil d'approximation. Des facteurs tels que les performances du four, la précision des réglages de température et la façon dont vous aimez votre viande cuite peuvent influencer le temps de rôtissage réel. Il est donc toujours bon de garder un œil sur votre rôti, surtout lorsque vous le cuisinez pour la première fois.
+
+De plus, notre Calculateur de Temps de Rôtissage fournit également des informations nutritionnelles pour chaque type de viande, vous aidant à comprendre la valeur nutritionnelle de votre rôti choisi. Donc, que vous soyez un cuisinier novice ou un chef expérimenté, notre calculateur est conçu pour vous aider à maîtriser l'art du rôtissage. Bonne rôtissage !
+""" 
+
+[install_app]
+  other = "Installer l'application"

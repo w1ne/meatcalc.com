@@ -1,0 +1,90 @@
+[Name]
+other = "Kalkulator Czasu Pieczenia"
+
+[IntefaceQuestion]
+others = "Jaki rodzaj mięsa pieczesz?"
+
+[Chicken] 
+  others = "🐔 Kurczak"
+[Beef] 
+  others = "🐄 Wołowina"
+[Pork] 
+  others =  "🐖 Wieprzowina"
+[Lamb] 
+  others =  "🐑 Jagnięcina"
+[Fish] 
+  others = "🐟 Ryba"
+[Mutton]
+  others = "🐏 Baranina"
+[Turkey] 
+  others = "🦃 Indyk"
+[Duck] 
+  others = "🦆 Kaczka"
+[Goat] 
+  others = "🐐 Koźlina"
+[Venison] 
+  others =  "🦌 Dziczyzna"
+[Rabbit]
+  others = "🐇 Królik"
+
+[Intro]
+other = """
+# Twój przewodnik po idealnym czasie pieczenia: Jak długo powinienem piec?
+
+Pieczenie to kwintesencja techniki gotowania, która wydobywa bogate, głębokie smaki mięsa. Jednak znalezienie idealnego czasu pieczenia może być trudne. Nasz interaktywny Kalkulator Czasu Pieczenia jest tutaj, aby przewodnikować Cię na drodze do smakowitej pieczeni.
+
+## Przykłady czasu pieczenia
+
+### 🐔 Kurczak
+
+Pieczenie kurczaka w temperaturze 180°C jest skutecznym sposobem na uzyskanie soczystego wnętrza i chrupiącej skórki. Zalecany czas pieczenia wynosi około 44 minut na kilogram. Aby upewnić się, że kurczak jest w pełni ugotowany, włóż termometr do mięsa w najgrubsze miejsce ptaka, omijając kość. Temperatura wewnętrzna powinna osiągnąć 74°C. Nie zapomnij odczekać około 15 minut przed pokrojeniem kurczaka, aby soki mogły się rozprowadzić.
+
+### 🐄 Wołowina
+
+Aby upiec wołowinę, rozgrzej piekarnik do 200°C. Dobrą zasadą jest pieczenie jej przez około 60 minut na kilogram dla średnio wysmażonej wołowiny. Oczywiście, można to dostosować, jeśli preferujesz swoją wołowinę bardziej krwistą lub dobrze wysmażoną. Użyj termometru do mięsa i dąż do osiągnięcia temperatury wewnętrznej 63°C dla średnio wysmażonej, 71°C dla średnio wysmażonej, i 77°C dla dobrze wysmażonej. Pozwól wołowinie odpocząć przez 15-20 minut przed pokrojeniem, aby zachować soczystość.
+
+### 🐖 Wieprzowina
+
+Dla pieczenia wieprzowiny, 180°C to standardowa temperatura. Biorąc pod uwagę różnorodność kawałków, przybliżony czas pieczenia 90 minut na kilogram może służyć jako wytyczna. Wieprzowina powinna być gotowana aż do osiągnięcia temperatury wewnętrznej 71°C. Pozwól wieprzowinie odpocząć przez 10-15 minut przed pokrojeniem, aby mięso pozostało soczyste.
+
+### 🐑 Jagnięcina
+
+Dla miękkiej, soczystej pieczeni z jagnięciny, rozgrzej piekarnik do 200°C. Jako ogólną zasadę, dąż do około 60 minut czasu pieczenia na kilogram. Dostosuj czas gotowania w zależności od tego, jak wysmażoną preferujesz swoją jagnięcinę. Zawsze pozwól jagnięcinie odpocząć przez 15-20 minut przed pokrojeniem.
+
+### 🐟 Ryba
+
+Ryby można skutecznie piec w temperaturze 180°C. Jednak czas gotowania może znacznie różnić się w zależności od rodzaju i grubości ryby. Ogólnie, pieczenie przez około 25 minut na kilogram może działać dla wielu typów. Ryba powinna łatwo się łuszczyć widelcem, gdy jest gotowa.
+
+### 🐏 Baranina
+
+Baranina może być nieco trudniejsza, ponieważ często pochodzi od starszych owiec, co może sprawić, że mięso jest twardsze. Wolniejsze pieczenie w temperaturze 200°C przez około 45 minut na kilogram może pomóc rozłożyć twardsze włókna mięśniowe i dać efekt w postaci miękkiej pieczeni.
+
+### 🦃 Indyk
+
+Dla pysznie pieczonego indyka, użyj piekarnika rozgrzanego do 180°C. Średnio, powinieneś piec swój indyk przez około 40 minut na kilogram. Jednak wielkość i nadzienie indyka mogą wpływać na czas gotowania. Zawsze upewnij się, że twój indyk osiąga temperaturę wewnętrzną 74°C przed wyjęciem go z piekarnika.
+
+### 🦆 Kaczka
+
+Aby osiągnąć dobrze ugotowaną kaczkę z chrupiącą skórką, piecz w wyższej temperaturze 200°C. Ogólny czas pieczenia może wynosić około 50 minut na kilogram, ale może to znacznie różnić się w zależności od wielkości kaczki. Zawsze sprawdzaj temperaturę wewnętrzną, dążąc do 74°C dla w pełni ugotowanej kaczki, choć niektórzy wolą, gdy jest lekko różowa w środku.
+
+### 🐐 Koźlina
+
+Mięso kozy może znacznie różnić się pod względem miękkości i smaku w zależności od wieku i diety zwierzęcia. Jako punkt
+
+ wyjścia, możesz piec go w temperaturze 180°C przez około 75 minut na kilogram. Dostosuj czas gotowania i temperaturę w razie potrzeby, w zależności od konkretnego kawałka i pożądanego stopnia wysmażenia.
+
+### 🦌 Dziczyzna
+
+Ze względu na swoją chude naturę, dziczyzna może wyschnąć, jeśli jest przegotowana. Aby tego uniknąć, piecz ją w temperaturze 180°C przez około 55 minut na kilogram dla średnio wysmażonej pieczeni. Użyj termometru do mięsa, aby upewnić się, że temperatura wewnętrzna wynosi około 63°C dla średnio wysmażonej.
+
+### 🐇 Królik
+
+Królik jest chudym mięsem, podobnie jak dziczyzna, i nie powinien być przegotowany. Dobrym punktem wyjścia jest pieczenie w temperaturze 180°C przez około 40 minut na kilogram. Zawsze sprawdzaj, czy temperatura wewnętrzna wynosi co najmniej 71°C, aby upewnić się, że mięso jest bezpieczne do spożycia.
+
+Pomimo że nasz kalkulator dostarcza wiarygodne wytyczne, ważne jest, aby pamiętać, że jest to narzędzie przybliżone. Czynniki takie jak wydajność piekarnika, dokładność ustawień temperatury i to, jak lubisz swoje mięso, mogą wpływać na rzeczywisty czas pieczenia. Dlatego zawsze jest dobrym pomysłem, aby uważnie obserwować swoją pieczeń, szczególnie gdy gotujesz ją po raz pierwszy.
+
+Co więcej, nasz Kalkulator Czasu Pieczenia dostarcza również informacji o wartości odżywczej każdego rodzaju mięsa, pomagając Ci zrozumieć wartość odżywczą wybranego kawałka. Czy jesteś więc nowicjuszem w gotowaniu, czy doświadczonym kucharzem, nasz kalkulator jest zaprojektowany, aby pomóc Ci opanować sztukę pieczenia. Smacznego!
+""" 
+
+[install_app]
+  other = "Zainstaluj Aplikację"

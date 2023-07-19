@@ -23,16 +23,9 @@
 <button onclick="incrementWeight()">+</button>
 <input type="number" step="0.1" id="weight" oninput="calculate()" value="1">
 <button onclick="decrementWeight()">-</button>
-<button onclick="changeWeight(0.5)"><span id="weightBtn1">0.5 kg</span> / <span id="weightBtn2">1 lb</span></button>
-<button onclick="changeWeight(1)"><span id="weightBtn3">1 kg</span> / <span id="weightBtn4">2.2 lb</span></button>
-<button onclick="changeWeight(1.5)"><span id="weightBtn5">1.5 kg</span> / <span id="weightBtn6">3.3 lb</span></button>
-
-<p>Unit of Measurement:</p>
-
-<select id="unit" onchange="calculate()">
-    <option value="kg">Metric (kg)</option>
-    <option value="lb">Imperial (lb)</option>
-</select>
+<button onclick="changeWeight(0.5)">0.5 kg</button>
+<button onclick="changeWeight(1)">1 kg</button>
+<button onclick="changeWeight(1.5)">1.5 kg</button>
 
 <p id="result"></p>
 <div id="nutritionContainer">
@@ -93,31 +86,19 @@
         rabbit: 180
     };
     
-    var cookingTimesPerKg = {
-        chicken: 44,
-        beef: 60,
-        pork: 90,
-        lamb: 60,
-        fish: 25,
-        mutton: 45,
-        turkey: 40,
-        duck: 50,
-        goat: 75,
-        venison: 55
-    };
-
-    var cookingTimesPerLb = {
-        chicken: 20,
-        beef: 27,
-        pork: 41,
-        lamb: 27,
-        fish: 11,
-        mutton: 20,
-        turkey: 18,
-        duck: 22,
-        goat: 34,
-        venison: 25
-    };
+	var cookingTimesPerKg = {
+	    chicken: 44,
+	    beef: 60,
+	    pork: 90,
+	    lamb: 60,
+	    fish: 25,
+	    mutton: 45,
+	    turkey: 40,
+	    duck: 50,
+	    goat: 75,
+	    venison: 55,
+	    rabbit: 40
+	};
 
     var meatType = 'chicken';
 
@@ -141,24 +122,12 @@
         if (isNaN(weight)) {
             return;
         }
-        
-        var unit = document.getElementById('unit').value;
+
         var temperature = defaultTemperatures[meatType];
-
-        var cookingTimes;
-
-        if (unit === 'kg') {
-            cookingTimes = cookingTimesPerKg;
-        } else if (unit === 'lb') {
-            cookingTimes = cookingTimesPerLb;
-            weight = convertLbToKg(weight);
-            temperature = convertTemperatureToFahrenheit(temperature);
-        }
-
-        var cookingTime = cookingTimes[meatType];
+        var cookingTime = cookingTimesPerKg[meatType];
         var totalTime = Math.round(cookingTime * weight);
 
-        document.getElementById('result').innerHTML = 'Cooking time: ' + totalTime + ' minutes at ' + temperature + getTemperatureUnit();
+        document.getElementById('result').innerHTML = 'Cooking time: ' + totalTime + ' minutes at ' + temperature + '°C';
         
         // Hide all nutrition divs
         var nutritionDivs = document.getElementsByClassName('nutritionInfo');
@@ -194,50 +163,13 @@
         calculate();
     }
 
-    function convertLbToKg(weightLb) {
-        return weightLb * 0.45359237;
-    }
-
-    function convertTemperatureToFahrenheit(temperatureCelsius) {
-        return (temperatureCelsius * 9 / 5) + 32;
-    }
-
-    function getTemperatureUnit() {
-        var unit = document.getElementById('unit').value;
-        return (unit === 'kg') ? '°C' : '°F';
+    function changeWeight(w) {
+        document.getElementById('weight').value = w.toFixed(1);
+        calculate();
     }
 
     // Set initial values
     setMeatType(document.getElementsByClassName('meatType')[0], 'chicken');
-
-    // Set default unit based on browser settings
-    var browserLanguage = navigator.language || navigator.userLanguage;
-    if (browserLanguage === 'en-US') {
-        document.getElementById('unit').value = 'lb';
-        calculate();
-    }
-    
-    function updateUnitSelection() {
-        var unit = document.getElementById('unit').value;
-        var weightButtons = document.getElementsByTagName('button');
-        var weightBtns = ['weightBtn1', 'weightBtn2', 'weightBtn3'];
-
-        if (unit === 'kg') {
-            for (var i = 0; i < weightButtons.length; i++) {
-                if (weightButtons[i].id.startsWith('weightBtn')) {
-                    document.getElementById(weightBtns[i]).innerHTML = weightButtons[i].id.includes('kg') ? '0.5 kg' : '1 kg';
-                }
-            }
-        } else if (unit === 'lb') {
-            for (var i = 0; i < weightButtons.length; i++) {
-                if (weightButtons[i].id.startsWith('weightBtn')) {
-                    document.getElementById(weightBtns[i]).innerHTML = weightButtons[i].id.includes('kg') ? '1 lb' : '2.2 lb';
-                }
-            }
-        }
-
-        calculate();
-    }
 </script>
 
 </body>

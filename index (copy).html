@@ -1,0 +1,80 @@
+{{ define "main" }}
+    {{ $demo := .Site.Params.demo_url }}
+    {{ $contact := relref . "contact" }}
+    {{ $homeImg := resources.Get "images/home.png" }}
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered vk-is-reversed">
+                    <div class="column is-6">
+                        <h1 class="title">{{ .Site.Params.home.title }}</h1>
+                        <p class="mb-5">{{ .Site.Params.home.intro }}</p>
+                        <div class="column is-full">
+                        <figure class="image is-4by3">
+                            <img src="{{ $homeImg.RelPermalink }}" alt="{{ .Site.Title }}">
+                        </figure>
+                    	</div>
+ 							<div id="tool-wrapper columns is-centered">
+					<!--<div class="topad">
+						 This is where your 300x250 top ad code from Adsense goes 
+					</div>-->
+					<div class="tool">
+						{{meat_calculator_metric}}
+					</div>
+					<!--<div class="bottomad">				
+						 This is where your 320x50 bottom ad code from Adsense goes 
+					</div>-->
+				</div>
+				<div class="content-inner">
+					<div class="section minor">
+						<h3 class="subtitle-minor">How much should I tip?</h3>
+						<p class="subtext-minor">When dining out or receiving a service, it is customary to show appreciation for the service provided by leaving a tip.</p>
+						<p class="subtext-minor">However, deciding on the appropriate amount to tip can sometimes be a perplexing task.</p>
+						<p class="subtext-minor">To help you out deciding on how much you should tip, we have compiled this list of common services and their respective tips:</p>
+						<p class="subtext-minor list">1. Restaurant Waiter/Waitress: 15-20% tip, adjust for service quality</p>
+						<p class="subtext-minor list">2. Hairstylist/Barber: 20% tip for both men and women</p>
+						<p class="subtext-minor list">3. Uber or Taxi: 15%, adjust for service quality</p>
+						<p class="subtext-minor list">4. Food delivery: 10-15%, adjust for weather, distance</p>
+						<p class="subtext-minor list">5. Babysitter/Nanny: 20%, or extra hours pay</p>
+						<p class="subtext-minor list">6. Bar tender: 20%, or $1/drink or $2/fancy drink</p>
+						<p class="subtext-minor list">7. MANI/PEDI: 15%, adjust for service quality</p>
+						<p class="subtext-minor list">8. Car Wash: 15-20%, or $2-5 for a simple car wash</p>
+						<p class="subtext-minor list">9. Coffee barista: 15-20%, if the service is outstanding</p>
+						<p class="subtext-minor list">10. Valet parking: $2 to $5, each time the car is picked up</p>
+					</div>
+					<div class="section minor">
+						<h3 class="subtitle-minor">What's a Tip Calculator?</h3>
+						<p class="subtext-minor">A tip calculator is a useful tool designed to simplify the process of calculating tips and the total bill amount, especially when splitting the bill among multiple people.</p>
+						<p class="subtext-minor">It takes into account the bill amount, the tip percentage, and the number of people paying, providing fast and accurate results.</p>
+						<p class="subtext-minor">This online tip calculator eliminates the need for manual calculations or relying on guesswork when determining how much to tip.</p>
+						<p class="subtext-minor">Whether you are dining out, getting a haircut, or enjoying any service that customarily requires a tip, a tip calculator ensures fairness and convenience for everyone involved.</p>
+					</div>
+					<div class="section minor">
+						<h3 class="subtitle-minor">How do you use this Tip Calculator?</h3>
+						<p class="subtext-minor">Using the tip calculator on this website is straightforward and user-friendly. First, input the total bill amount, which can include taxes or any additional charges.</p>
+						<p class="subtext-minor">Next, specify the desired tip percentage, typically ranging from 10% to 25% or more, depending on the quality of service.</p>
+						<p class="subtext-minor">Finally, enter the number of people sharing the bill, indicating how many individuals will contribute towards the total amount.</p>
+						<p class="subtext-minor">Once you've entered all the required information, the tip calculator will instantly provide you with the calculated tip amount in dollars. Additionally, it will display the total bill amount, which includes both the bill and the tip.</p>
+						<p class="subtext-minor">If the bill is being split among multiple parties, the calculator will also provide a breakdown of how much each person should contribute, both for the tip and the total bill.</p>
+						<p class="subtext-minor">Using a tip calculator ensures transparency and fairness when it comes to tipping and bill splitting. It removes the hassle of mental math, reduces the possibility of errors, and promotes an equitable distribution of expenses among the group. With this handy online tool, you can easily calculate tips and split bills accurately, making the process more convenient and efficient for everyone involved.</p>
+					</div>
+					<div class="section minor">
+						<h3 class="subtitle-minor">Is there an App?</h3>
+						<p class="subtext-minor">Yes, there is! We offer a convenient app that you can download directly from our website, allowing you to easily calculate tips whenever you need, eliminating the hassle of repeatedly accessing our website through a browser.</p>
+						<p class="subtext-minor">To install our app, simply press the large green "Install App" button at the top or bottom of this very page.
+					</div>
+					<div class="section minor">
+						<h3 class="subtitle-minor">Is this Tip Calculator FREE?</h3>
+						<p class="subtext-minor">Yes, this tool is 100% free to use. There are no hidden fees or charges for using this tool. It is and will always remain free to use.</p>
+					</div>
+				</div>
+			</div>
+                        <div class="buttons">
+                            <a class="button is-primary" href="{{ $contact }}">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
