@@ -2,30 +2,30 @@
 other = "焼き時間計算機"
 
 [IntefaceQuestion]
-others = "何の肉を料理していますか？"
+other = "何の肉を料理していますか？"
 
 [Chicken] 
-  others = "🐔 チキン"
+  other = "🐔 チキン"
 [Beef] 
-  others = "🐄 ビーフ"
+  other = "🐄 ビーフ"
 [Pork] 
-  others =  "🐖 ポーク"
+  other =  "🐖 ポーク"
 [Lamb] 
-  others =  "🐑 ラム"
+  other =  "🐑 ラム"
 [Fish] 
-  others = "🐟 フィッシュ"
+  other = "🐟 フィッシュ"
 [Mutton]
-  others = "🐏 マトン"
+  other = "🐏 マトン"
 [Turkey] 
-  others = "🦃 七面鳥"
+  other = "🦃 七面鳥"
 [Duck] 
-  others = "🦆 ダック"
+  other = "🦆 ダック"
 [Goat] 
-  others = "🐐 ゴート"
+  other = "🐐 ゴート"
 [Venison] 
-  others =  "🦌 鹿肉"
+  other =  "🦌 鹿肉"
 [Rabbit]
-  others = "🐇 ラビット"
+  other = "🐇 ラビット"
 
 [Intro]
 other = """

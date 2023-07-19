@@ -2,30 +2,30 @@
 other = "Roasting Time Calculator"
 
 [IntefaceQuestion]
-others = "What type of meat are you cooking?"
+other = "What type of meat are you cooking?"
 
 [Chicken] 
-  others = "🐔 Chicken"
+  other = "🐔 Chicken"
 [Beef] 
-  others = "🐄 Beef"
+  other = "🐄 Beef"
 [Pork] 
-  others =  "🐖 Pork"
+  other =  "🐖 Pork"
 [Lamb] 
-  others =  "🐑 Lamb"
+  other =  "🐑 Lamb"
 [Fish] 
-  others = "🐟 Fish"
+  other = "🐟 Fish"
 [Mutton]
-  others = "🐏 Mutton"
+  other = "🐏 Mutton"
 [Turkey] 
-  others = "🦃 Turkey"
+  other = "🦃 Turkey"
 [Duck] 
-  others = "🦆 Duck"
+  other = "🦆 Duck"
 [Goat] 
-  others = "🐐 Goat"
+  other = "🐐 Goat"
 [Venison] 
-  others =  "🦌 Venison"
+  other =  "🦌 Venison"
 [Rabbit]
-  others = "🐇 Rabbit"
+  other = "🐇 Rabbit"
 
 [Intro]
 other = """

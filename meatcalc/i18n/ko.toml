@@ -2,30 +2,30 @@
 other = "구이 시간 계산기"
 
 [IntefaceQuestion]
-others = "어떤 유형의 고기를 조리하시나요?"
+other = "어떤 유형의 고기를 조리하시나요?"
 
 [Chicken] 
-  others = "🐔 치킨"
+  other = "🐔 치킨"
 [Beef] 
-  others = "🐄 소고기"
+  other = "🐄 소고기"
 [Pork] 
-  others =  "🐖 돼지고기"
+  other =  "🐖 돼지고기"
 [Lamb] 
-  others =  "🐑 양고기"
+  other =  "🐑 양고기"
 [Fish] 
-  others = "🐟 물고기"
+  other = "🐟 물고기"
 [Mutton]
-  others = "🐏 양고기 (old)"
+  other = "🐏 양고기 (old)"
 [Turkey] 
-  others = "🦃 터키"
+  other = "🦃 터키"
 [Duck] 
-  others = "🦆 오리"
+  other = "🦆 오리"
 [Goat] 
-  others = "🐐 염소고기"
+  other = "🐐 염소고기"
 [Venison] 
-  others =  "🦌 사슴고기"
+  other =  "🦌 사슴고기"
 [Rabbit]
-  others = "🐇 토끼"
+  other = "🐇 토끼"
 
 [Intro]
 other = """

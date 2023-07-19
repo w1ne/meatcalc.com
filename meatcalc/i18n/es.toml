@@ -2,7 +2,7 @@
 other = "Calculadora de tiempo de tostado"
 
 [IntefaceQuestion]
-others = "¿Qué tipo de carne estás cocinando?"
+other = "¿Qué tipo de carne estás cocinando?"
 
 [Chicken] 
   otros = "🐔 Pollo"

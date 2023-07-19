@@ -2,30 +2,30 @@
 other = "Calculateur de Temps de Rôtissage"
 
 [IntefaceQuestion]
-others = "Quel type de viande cuisinez-vous?"
+other = "Quel type de viande cuisinez-vous?"
 
 [Chicken] 
-  others = "🐔 Poulet"
+  other = "🐔 Poulet"
 [Beef] 
-  others = "🐄 Bœuf"
+  other = "🐄 Bœuf"
 [Pork] 
-  others =  "🐖 Porc"
+  other =  "🐖 Porc"
 [Lamb] 
-  others =  "🐑 Agneau"
+  other =  "🐑 Agneau"
 [Fish] 
-  others = "🐟 Poisson"
+  other = "🐟 Poisson"
 [Mutton]
-  others = "🐏 Mouton"
+  other = "🐏 Mouton"
 [Turkey] 
-  others = "🦃 Dinde"
+  other = "🦃 Dinde"
 [Duck] 
-  others = "🦆 Canard"
+  other = "🦆 Canard"
 [Goat] 
-  others = "🐐 Chèvre"
+  other = "🐐 Chèvre"
 [Venison] 
-  others =  "🦌 Venaison"
+  other =  "🦌 Venaison"
 [Rabbit]
-  others = "🐇 Lapin"
+  other = "🐇 Lapin"
 
 [Intro]
 other = """

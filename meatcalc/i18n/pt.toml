@@ -2,30 +2,30 @@
 other = "Calculadora de Tempo de Assado"
 
 [IntefaceQuestion]
-others = "Que tipo de carne você está cozinhando?"
+other = "Que tipo de carne você está cozinhando?"
 
 [Chicken] 
-  others = "🐔 Frango"
+  other = "🐔 Frango"
 [Beef] 
-  others = "🐄 Carne de Vaca"
+  other = "🐄 Carne de Vaca"
 [Pork] 
-  others =  "🐖 Porco"
+  other =  "🐖 Porco"
 [Lamb] 
-  others =  "🐑 Cordeiro"
+  other =  "🐑 Cordeiro"
 [Fish] 
-  others = "🐟 Peixe"
+  other = "🐟 Peixe"
 [Mutton]
-  others = "🐏 Carneiro"
+  other = "🐏 Carneiro"
 [Turkey] 
-  others = "🦃 Peru"
+  other = "🦃 Peru"
 [Duck] 
-  others = "🦆 Pato"
+  other = "🦆 Pato"
 [Goat] 
-  others = "🐐 Cabra"
+  other = "🐐 Cabra"
 [Venison] 
-  others =  "🦌 Veado"
+  other =  "🦌 Veado"
 [Rabbit]
-  others = "🐇 Coelho"
+  other = "🐇 Coelho"
 
 [Intro]
 other = """

@@ -2,30 +2,30 @@
 other = "Braad Tijd Calculator"
 
 [IntefaceQuestion]
-others = "Welk soort vlees gaat u bereiden?"
+other = "Welk soort vlees gaat u bereiden?"
 
 [Chicken] 
-  others = "🐔 Kip"
+  other = "🐔 Kip"
 [Beef] 
-  others = "🐄 Rundvlees"
+  other = "🐄 Rundvlees"
 [Pork] 
-  others =  "🐖 Varkensvlees"
+  other =  "🐖 Varkensvlees"
 [Lamb] 
-  others =  "🐑 Lamsvlees"
+  other =  "🐑 Lamsvlees"
 [Fish] 
-  others = "🐟 Vis"
+  other = "🐟 Vis"
 [Mutton]
-  others = "🐏 Schapenvlees"
+  other = "🐏 Schapenvlees"
 [Turkey] 
-  others = "🦃 Kalkoen"
+  other = "🦃 Kalkoen"
 [Duck] 
-  others = "🦆 Eend"
+  other = "🦆 Eend"
 [Goat] 
-  others = "🐐 Geit"
+  other = "🐐 Geit"
 [Venison] 
-  others =  "🦌 Hert"
+  other =  "🦌 Hert"
 [Rabbit]
-  others = "🐇 Konijn"
+  other = "🐇 Konijn"
 
 [Intro]
 other = """

@@ -2,30 +2,30 @@
 other = "Calcolatore del Tempo di Arrosto"
 
 [IntefaceQuestion]
-others = "Quale tipo di carne stai cucinando?"
+other = "Quale tipo di carne stai cucinando?"
 
 [Chicken] 
-  others = "🐔 Pollo"
+  other = "🐔 Pollo"
 [Beef] 
-  others = "🐄 Manzo"
+  other = "🐄 Manzo"
 [Pork] 
-  others =  "🐖 Maiale"
+  other =  "🐖 Maiale"
 [Lamb] 
-  others =  "🐑 Agnello"
+  other =  "🐑 Agnello"
 [Fish] 
-  others = "🐟 Pesce"
+  other = "🐟 Pesce"
 [Mutton]
-  others = "🐏 Montone"
+  other = "🐏 Montone"
 [Turkey] 
-  others = "🦃 Tacchino"
+  other = "🦃 Tacchino"
 [Duck] 
-  others = "🦆 Anatra"
+  other = "🦆 Anatra"
 [Goat] 
-  others = "🐐 Capra"
+  other = "🐐 Capra"
 [Venison] 
-  others =  "🦌 Cervo"
+  other =  "🦌 Cervo"
 [Rabbit]
-  others = "🐇 Coniglio"
+  other = "🐇 Coniglio"
 
 [Intro]
 other = """

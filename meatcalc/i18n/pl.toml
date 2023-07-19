@@ -2,30 +2,30 @@
 other = "Kalkulator Czasu Pieczenia"
 
 [IntefaceQuestion]
-others = "Jaki rodzaj mięsa pieczesz?"
+other = "Jaki rodzaj mięsa pieczesz?"
 
 [Chicken] 
-  others = "🐔 Kurczak"
+  other = "🐔 Kurczak"
 [Beef] 
-  others = "🐄 Wołowina"
+  other = "🐄 Wołowina"
 [Pork] 
-  others =  "🐖 Wieprzowina"
+  other =  "🐖 Wieprzowina"
 [Lamb] 
-  others =  "🐑 Jagnięcina"
+  other =  "🐑 Jagnięcina"
 [Fish] 
-  others = "🐟 Ryba"
+  other = "🐟 Ryba"
 [Mutton]
-  others = "🐏 Baranina"
+  other = "🐏 Baranina"
 [Turkey] 
-  others = "🦃 Indyk"
+  other = "🦃 Indyk"
 [Duck] 
-  others = "🦆 Kaczka"
+  other = "🦆 Kaczka"
 [Goat] 
-  others = "🐐 Koźlina"
+  other = "🐐 Koźlina"
 [Venison] 
-  others =  "🦌 Dziczyzna"
+  other =  "🦌 Dziczyzna"
 [Rabbit]
-  others = "🐇 Królik"
+  other = "🐇 Królik"
 
 [Intro]
 other = """

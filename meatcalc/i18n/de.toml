@@ -2,30 +2,30 @@
 other = "Röstzeitrechner"
 
 [IntefaceQuestion]
-others = "Welche Fleischsorte kochen Sie?"
+other = "Welche Fleischsorte kochen Sie?"
 
 [Chicken] 
-  others = "🐔 Huhn"
+  other = "🐔 Huhn"
 [Beef] 
-  others = "🐄 Rind"
+  other = "🐄 Rind"
 [Pork] 
-  others =  "🐖 Schwein"
+  other =  "🐖 Schwein"
 [Lamb] 
-  others =  "🐑 Lamm"
+  other =  "🐑 Lamm"
 [Fish] 
-  others = "🐟 Fisch"
+  other = "🐟 Fisch"
 [Mutton]
-  others = "🐏 Hammel"
+  other = "🐏 Hammel"
 [Turkey] 
-  others = "🦃 Truthahn"
+  other = "🦃 Truthahn"
 [Duck] 
-  others = "🦆 Ente"
+  other = "🦆 Ente"
 [Goat] 
-  others = "🐐 Ziege"
+  other = "🐐 Ziege"
 [Venison] 
-  others =  "🦌 Wild"
+  other =  "🦌 Wild"
 [Rabbit]
-  others =  "🦌 Kaninchen"
+  other =  "🦌 Kaninchen"
 
 [Intro]
 other = """

@@ -2,30 +2,30 @@
 other = "Stektidskalkylator"
 
 [IntefaceQuestion]
-others = "Vilken typ av kött ska du tillaga?"
+other = "Vilken typ av kött ska du tillaga?"
 
 [Chicken] 
-  others = "🐔 Kyckling"
+  other = "🐔 Kyckling"
 [Beef] 
-  others = "🐄 Nötkött"
+  other = "🐄 Nötkött"
 [Pork] 
-  others =  "🐖 Fläskkött"
+  other =  "🐖 Fläskkött"
 [Lamb] 
-  others =  "🐑 Lammkött"
+  other =  "🐑 Lammkött"
 [Fish] 
-  others = "🐟 Fisk"
+  other = "🐟 Fisk"
 [Mutton]
-  others = "🐏 Fårfkött"
+  other = "🐏 Fårfkött"
 [Turkey] 
-  others = "🦃 Kalkon"
+  other = "🦃 Kalkon"
 [Duck] 
-  others = "🦆 Anka"
+  other = "🦆 Anka"
 [Goat] 
-  others = "🐐 Getkött"
+  other = "🐐 Getkött"
 [Venison] 
-  others =  "🦌 Rådjurskött"
+  other =  "🦌 Rådjurskött"
 [Rabbit]
-  others = "🐇 Kaninkött"
+  other = "🐇 Kaninkött"
 
 [Intro]
 other = """

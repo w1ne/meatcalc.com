@@ -2,30 +2,30 @@
 other = "Stegetidsberegner"
 
 [IntefaceQuestion]
-others = "Hvilken type kød tilbereder du?"
+other = "Hvilken type kød tilbereder du?"
 
 [Chicken] 
-  others = "🐔 Kylling"
+  other = "🐔 Kylling"
 [Beef] 
-  others = "🐄 Oksekød"
+  other = "🐄 Oksekød"
 [Pork] 
-  others =  "🐖 Svin"
+  other =  "🐖 Svin"
 [Lamb] 
-  others =  "🐑 Lam"
+  other =  "🐑 Lam"
 [Fish] 
-  others = "🐟 Fisk"
+  other = "🐟 Fisk"
 [Mutton]
-  others = "🐏 Får"
+  other = "🐏 Får"
 [Turkey] 
-  others = "🦃 Kalkun"
+  other = "🦃 Kalkun"
 [Duck] 
-  others = "🦆 And"
+  other = "🦆 And"
 [Goat] 
-  others = "🐐 Ged"
+  other = "🐐 Ged"
 [Venison] 
-  others =  "🦌 Vildt"
+  other =  "🦌 Vildt"
 [Rabbit]
-  others = "🐇 Kanin"
+  other = "🐇 Kanin"
 
 [Intro]
 other = """

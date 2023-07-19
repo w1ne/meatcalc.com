@@ -2,30 +2,30 @@
 other = "Steketidskalkulator"
 
 [IntefaceQuestion]
-others = "Hvilken type kjøtt skal du tilberede?"
+other = "Hvilken type kjøtt skal du tilberede?"
 
 [Chicken] 
-  others = "🐔 Kylling"
+  other = "🐔 Kylling"
 [Beef] 
-  others = "🐄 Storfekjøtt"
+  other = "🐄 Storfekjøtt"
 [Pork] 
-  others =  "🐖 Svinekjøtt"
+  other =  "🐖 Svinekjøtt"
 [Lamb] 
-  others =  "🐑 Lam"
+  other =  "🐑 Lam"
 [Fish] 
-  others = "🐟 Fisk"
+  other = "🐟 Fisk"
 [Mutton]
-  others = "🐏 Sau"
+  other = "🐏 Sau"
 [Turkey] 
-  others = "🦃 Kalkun"
+  other = "🦃 Kalkun"
 [Duck] 
-  others = "🦆 And"
+  other = "🦆 And"
 [Goat] 
-  others = "🐐 Geit"
+  other = "🐐 Geit"
 [Venison] 
-  others =  "🦌 Hjort"
+  other =  "🦌 Hjort"
 [Rabbit]
-  others = "🐇 Kanin"
+  other = "🐇 Kanin"
 
 [Intro]
 other = """
