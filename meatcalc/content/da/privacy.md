@@ -7,9 +7,9 @@ menu:
     weight: 1
 ---
 
-# StringTune.com Fortrolighedspolitik
+# MeatCalc.com Fortrolighedspolitik
 
-På StringTune.com, tilgængelig på [https://www.StringTune.com/](https://www.StringTune.com/), er fortroligheden af vores gæster en af vores hovedprioriteter. Dette dokument om databeskyttelse indeholder oplysninger om de typer af information, der indsamles og registreres af StringTune.com, samt en forklaring på deres anvendelse.
+På MeatCalc.com, tilgængelig på [https://www.MeatCalc.com/](https://www.MeatCalc.com/), er fortroligheden af vores gæster en af vores hovedprioriteter. Dette dokument om databeskyttelse indeholder oplysninger om de typer af information, der indsamles og registreres af MeatCalc.com, samt en forklaring på deres anvendelse.
 
 Hvis du har spørgsmål til denne fortrolighedspolitik, er du velkommen til at kontakte os her: stringtune.online [at] gmail.com
 
@@ -17,14 +17,14 @@ Hvis du har spørgsmål til denne fortrolighedspolitik, er du velkommen til at k
 
 Vi er administrator af dine persondata.
 
-StringTune.coms retsgrundlag for indsamling og brug af de persondata, der beskrives i denne fortrolighedspolitik, afhænger af de persondata, vi indsamler, og den specifikke kontekst, hvori vi indsamler oplysningerne:
+MeatCalc.coms retsgrundlag for indsamling og brug af de persondata, der beskrives i denne fortrolighedspolitik, afhænger af de persondata, vi indsamler, og den specifikke kontekst, hvori vi indsamler oplysningerne:
 
-- StringTune.com skal indgå en kontrakt med dig
-- Du har givet StringTune.com tilladelse til at bruge persondata
-- Brugen af dine persondata er StringTune.coms legitime interesse
-- StringTune.com skal overholde alle juridiske krav
+- MeatCalc.com skal indgå en kontrakt med dig
+- Du har givet MeatCalc.com tilladelse til at bruge persondata
+- Brugen af dine persondata er MeatCalc.coms legitime interesse
+- MeatCalc.com skal overholde alle juridiske krav
 
-StringTune.com gemmer kun dine persondata så længe, det er nødvendigt for de formål, der er angivet i dette dokument om databeskyttelse. Vi vil kun gemme og bruge dine data i det omfang, der er nødvendigt for at opfylde vores juridiske forpligtelser, afklare tvister og håndhæve vores retningslinjer.
+MeatCalc.com gemmer kun dine persondata så længe, det er nødvendigt for de formål, der er angivet i dette dokument om databeskyttelse. Vi vil kun gemme og bruge dine data i det omfang, der er nødvendigt for at opfylde vores juridiske forpligtelser, afklare tvister og håndhæve vores retningslinjer.
 
 Hvis du er bosiddende i Det Europæiske Økonomiske Samarbejdsområde (EØS), har du visse rettigheder vedrørende databeskyttelse. Hvis du gerne vil informeres om, hvilke persondata vi har gemt om dig, og hvis du ønsker at få dem slettet fra vores systemer, bedes du kontakte os her: stringtune.online [at] gmail.com
 
@@ -41,7 +41,7 @@ Brugere kan til enhver tid fravælge personaliseret annoncering ved at besøge [
 
 ## Logfiler
 
-StringTune.com følger standardprocedurerne for brug af logfiler. Disse filer registrerer brugere, når de besøger hjemmesider. Alle hostingvirksomheder gør dette, da det er en del af hosting- og analyse­tjenesterne. Oplysningerne, der indsamles i logfilerne, omfatter internetprotokol (IP)-adresser, browsertype, internetudbyder (ISP), dato- og tidsstempler, henvisnings-/afslutningssider og muligvis antallet af klik. Disse data er ikke knyttet til nogen oplysninger, der kan identificere dig personligt. Formålet med oplysningerne er at analysere tendenser, administrere webstedet, spore brugertrafik på webstedet og indsamle demografiske oplysninger.
+MeatCalc.com følger standardprocedurerne for brug af logfiler. Disse filer registrerer brugere, når de besøger hjemmesider. Alle hostingvirksomheder gør dette, da det er en del af hosting- og analyse­tjenesterne. Oplysningerne, der indsamles i logfilerne, omfatter internetprotokol (IP)-adresser, browsertype, internetudbyder (ISP), dato- og tidsstempler, henvisnings-/afslutningssider og muligvis antallet af klik. Disse data er ikke knyttet til nogen oplysninger, der kan identificere dig personligt. Formålet med oplysningerne er at analysere tendenser, administrere webstedet, spore brugertrafik på webstedet og indsamle demografiske oplysninger.
 
 ## California Consumer Privacy Act (CCPA)
 
@@ -49,7 +49,7 @@ I henhold til CCPA har indbyggere i Californien ret til at angive deres præfere
 
 ## Cookies og web-beacons
 
-Som alle andre websteder bruger StringTune.com "cookies". Disse filer bruges til at gemme oplysninger, herunder besøgendes præferencer og placeringen på siden, som brugeren tilgik eller besøgte. Disse oplysninger bruges til at optimere brugeroplevelsen ved at tilpasse indholdet på vores websted baseret på brugerens browsertype og/eller andre oplysninger.
+Som alle andre websteder bruger MeatCalc.com "cookies". Disse filer bruges til at gemme oplysninger, herunder besøgendes præferencer og placeringen på siden, som brugeren tilgik eller besøgte. Disse oplysninger bruges til at optimere brugeroplevelsen ved at tilpasse indholdet på vores websted baseret på brugerens browsertype og/eller andre oplysninger.
 
 ## Google DART DoubleClick-cookie
 
@@ -57,13 +57,13 @@ Google er en ekstern udbyder på vores websted. Cookie-filer, kendt som DART-coo
 
 ## Tilknyttede programmer
 
-StringTune.com fungerer som en Amazon Associate for at tj
+MeatCalc.com fungerer som en Amazon Associate for at tj
 
 ene en procentdel af kommissionen fra kvalificerede køb af anbefalede og/eller linkede produkter fra vores websted til Amazon.com eller andre relaterede Amazon-websteder.
 
 ## Bestemmelser om databeskyttelse fra tredjeparter
 
-Fortrolighedspolitikken for StringTune.com gælder ikke for andre annoncører eller websteder. Vi anbefaler derfor, at du læser de relevante databeskyttelsesretningslinjer for eksterne annonceservere for yderligere information. Dette kan omfatte deres praksis og anvisninger om, hvordan man deaktiverer visse indstillinger.
+Fortrolighedspolitikken for MeatCalc.com gælder ikke for andre annoncører eller websteder. Vi anbefaler derfor, at du læser de relevante databeskyttelsesretningslinjer for eksterne annonceservere for yderligere information. Dette kan omfatte deres praksis og anvisninger om, hvordan man deaktiverer visse indstillinger.
 
 Du kan deaktivere cookies ved at bruge individuelle browserindstillinger. Yderligere detaljeret information om håndtering af cookies i visse webbrowsere kan findes på den tilsvarende hjemmeside for din browser.
 
@@ -73,11 +73,11 @@ Du kan også fravælge visse tredjepartsleverandørers brug af cookies til perso
 
 Vores næste prioritet er at beskytte børn, mens de bruger internettet. Vi opfordrer forældre og værger til at observere, deltage og/eller overvåge og kontrollere deres aktiviteter online.
 
-StringTune.com indsamler ikke bevidst nogen persondata fra børn under 13 år.
+MeatCalc.com indsamler ikke bevidst nogen persondata fra børn under 13 år.
 
 ## Fortrolighedspolitik kun for onlineaktiviteter
 
-Vores fortrolighedspolitik gælder kun for vores onlineaktiviteter og gælder for besøgende på vores websted i forhold til de oplysninger, de har givet og/eller indsamlet på StringTune.com. Denne politik gælder ikke for oplysninger, der indsamles offline eller via kanaler, der ikke er relateret til dette websted.
+Vores fortrolighedspolitik gælder kun for vores onlineaktiviteter og gælder for besøgende på vores websted i forhold til de oplysninger, de har givet og/eller indsamlet på MeatCalc.com. Denne politik gælder ikke for oplysninger, der indsamles offline eller via kanaler, der ikke er relateret til dette websted.
 
 ## Accept
 

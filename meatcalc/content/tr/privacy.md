@@ -7,9 +7,9 @@ menu:
     weight: 1
 ---
 
-# StringTune.com Gizlilik Politikası
+# MeatCalc.com Gizlilik Politikası
 
-StringTune.com'da, [https://www.StringTune.com/](https://www.StringTune.com/) adresinde, misafirlerimizin gizliliği en önemli önceliklerimizden biridir. Bu veri koruma belgesi, StringTune.com tarafından toplanan ve kaydedilen bilgi türlerini ve bu bilgilerin kullanımını açıklar.
+MeatCalc.com'da, [https://www.MeatCalc.com/](https://www.MeatCalc.com/) adresinde, misafirlerimizin gizliliği en önemli önceliklerimizden biridir. Bu veri koruma belgesi, MeatCalc.com tarafından toplanan ve kaydedilen bilgi türlerini ve bu bilgilerin kullanımını açıklar.
 
 Bu gizlilik politikası hakkında herhangi bir sorunuz varsa, lütfen çekinmeden buradan bize ulaşın: stringtune.online [at] gmail.com
 
@@ -17,14 +17,14 @@ Bu gizlilik politikası hakkında herhangi bir sorunuz varsa, lütfen çekinmede
 
 Kişisel verilerinizin yöneticisi biziz.
 
-StringTune.com'ın bu Gizlilik Politikasında belirtilen kişisel verileri toplama ve kullanma hukuki dayanağı, topladığımız kişisel verilere ve bilgi topladığımız özel bağlama bağlıdır:
+MeatCalc.com'ın bu Gizlilik Politikasında belirtilen kişisel verileri toplama ve kullanma hukuki dayanağı, topladığımız kişisel verilere ve bilgi topladığımız özel bağlama bağlıdır:
 
-- StringTune.com'un sizinle bir sözleşme yapması gerekmektedir
-- Kişisel verileri kullanma izni vermiş olmalısınız StringTune.com'a
-- Kişisel verilerinizin kullanımı, StringTune.com'un meşru çıkarıdır
-- StringTune.com'un tüm yasal gereksinimleri karşılaması gerekmektedir
+- MeatCalc.com'un sizinle bir sözleşme yapması gerekmektedir
+- Kişisel verileri kullanma izni vermiş olmalısınız MeatCalc.com'a
+- Kişisel verilerinizin kullanımı, MeatCalc.com'un meşru çıkarıdır
+- MeatCalc.com'un tüm yasal gereksinimleri karşılaması gerekmektedir
 
-StringTune.com, bu veri koruma belgesinde belirtilen amaçlar için yalnızca gerektiği sürece kişisel verilerinizi saklar. Hukuki yükümlülüklerimizi yerine getirmek, uyuşmazlıkları çözmek ve politikalarımızı uygulamak için gerektiği ölçüde verilerinizi saklar ve kullanırız.
+MeatCalc.com, bu veri koruma belgesinde belirtilen amaçlar için yalnızca gerektiği sürece kişisel verilerinizi saklar. Hukuki yükümlülüklerimizi yerine getirmek, uyuşmazlıkları çözmek ve politikalarımızı uygulamak için gerektiği ölçüde verilerinizi saklar ve kullanırız.
 
 Eğer Avrupa Ekonomik Alanı'nda (EEA) bulunuyorsanız, belirli veri koruma haklarına sahipsiniz. Eğer hangi kişisel verilerinizin bizde saklandığını öğrenmek ve sistemlerimizden silinmesini isterseniz, lütfen buradan bize ulaşın: stringtune.online [at] gmail.com
 
@@ -41,7 +41,7 @@ Kullanıcılar istedikleri zaman kişiselleştirilmiş reklamcılıktan çıkmak
 
 ## Günlük Dosyaları
 
-StringTune.com, günlük dosyalarının kullanımı için standart prosedürleri izler. Bu dosyalar, kullanıcıların web sitelerini ziyaret ettiğinde kullanıcıları kaydeder. Tüm hosting şirketleri bunu yapar ve bu, hosting hizmetlerinin ve analitik hizmetlerinin bir parçasıdır. Günlük dosyalarında toplanan bilgiler, Internet Protokol (IP) adreslerini, tarayıcı türünü, Internet Servis Sağlayıcısını (ISP), tarih ve saat damgalarını, yönlendiren / çıkış sayfalarını ve belki de tıklama sayısını içerir. Bu veriler, sizi kişisel olarak tanımlayabilecek herhangi bir bilgiye bağlanmaz. Bilgilerin amacı, trendleri analiz etmek, siteyi yönetmek, site üzerindeki kullanıcı trafiğini izlemek ve demografik bilgileri toplamaktır.
+MeatCalc.com, günlük dosyalarının kullanımı için standart prosedürleri izler. Bu dosyalar, kullanıcıların web sitelerini ziyaret ettiğinde kullanıcıları kaydeder. Tüm hosting şirketleri bunu yapar ve bu, hosting hizmetlerinin ve analitik hizmetlerinin bir parçasıdır. Günlük dosyalarında toplanan bilgiler, Internet Protokol (IP) adreslerini, tarayıcı türünü, Internet Servis Sağlayıcısını (ISP), tarih ve saat damgalarını, yönlendiren / çıkış sayfalarını ve belki de tıklama sayısını içerir. Bu veriler, sizi kişisel olarak tanımlayabilecek herhangi bir bilgiye bağlanmaz. Bilgilerin amacı, trendleri analiz etmek, siteyi yönetmek, site üzerindeki kullanıcı trafiğini izlemek ve demografik bilgileri toplamaktır.
 
 ## Kaliforniya Tüketici Gizlilik Yasası ("CCPA")
 
@@ -49,7 +49,7 @@ CCPA uyarınca, Kaliforniya sakinleri, reklam ve pazarlama amaçları için veri
 
 ## Çerezler ve Web Işaretçileri
 
-Diğer tüm web siteleri gibi, StringTune.com da "çerez" kullanır. Bu dosyalar, ziyaretçi tercihlerini ve kullanıcının eriştiği veya ziyaret ettiği sayfadaki konumu dahil olmak üzere bilgileri saklar. Bu bilgiler, kullanıcı deneyimini optimize etmek amacıyla, kullanıcının tarayıcı türüne ve / veya diğer bilgilere dayanarak web sitemizin içeriğini özelleştirmek için kullanılır.
+Diğer tüm web siteleri gibi, MeatCalc.com da "çerez" kullanır. Bu dosyalar, ziyaretçi tercihlerini ve kullanıcının eriştiği veya ziyaret ettiği sayfadaki konumu dahil olmak üzere bilgileri saklar. Bu bilgiler, kullanıcı deneyimini optimize etmek amacıyla, kullanıcının tarayıcı türüne ve / veya diğer bilgilere dayanarak web sitemizin içeriğini özelleştirmek için kullanılır.
 
 ## Google DART DoubleClick Çerezi
 
@@ -57,11 +57,11 @@ Google, web sitemizde dış sağlayıcıdır. DART çerezleri olarak bilinen çe
 
 ## İştirak Programları
 
-StringTune.com, web sitemizden Amazon.com veya herhangi bir ilgili Amazon web sitesine yönlendirilen ve/veya bağlantılı ürünlerin nitelikli satın alımlarından komisyon yüzdesi kazanmak için bir Amazon İştirakçisi olarak hareket eder.
+MeatCalc.com, web sitemizden Amazon.com veya herhangi bir ilgili Amazon web sitesine yönlendirilen ve/veya bağlantılı ürünlerin nitelikli satın alımlarından komisyon yüzdesi kazanmak için bir Amazon İştirakçisi olarak hareket eder.
 
 ## Üçüncü Taraf Veri Koruma Hükümleri
 
-StringTune.com'un gizlilik politikası, diğer reklam verenlere veya web sitelerine uygulanmaz. Bu nedenle, daha ayrıntılı bilgi için dış reklam sunucularının ilgili veri koruma yönergelerini okumanızı öneririz. Bu, uygulamaları ve belirli se
+MeatCalc.com'un gizlilik politikası, diğer reklam verenlere veya web sitelerine uygulanmaz. Bu nedenle, daha ayrıntılı bilgi için dış reklam sunucularının ilgili veri koruma yönergelerini okumanızı öneririz. Bu, uygulamaları ve belirli se
 
 çenekleri devre dışı bırakma talimatlarını içerebilir.
 
@@ -73,11 +73,11 @@ Ayrıca, kişiselleştirilmiş reklamcılık için bazı üçüncü taraf satıc
 
 Bir sonraki önceliğimiz, İnternet'i kullanırken çocukları korumaktır. Ebeveynlerin ve velilerin, çocuklarının çevrimiçi etkinliklerini gözlemlemelerini, katılmalarını ve / veya izlemelerini ve kontrol etmelerini teşvik ederiz.
 
-StringTune.com bilinçli olarak 13 yaşın altındaki çocuklardan herhangi bir kişisel veri toplamaz.
+MeatCalc.com bilinçli olarak 13 yaşın altındaki çocuklardan herhangi bir kişisel veri toplamaz.
 
 ## Sadece Çevrimiçi Etkinlikler İçin Gizlilik Politikası
 
-Gizlilik politikamız yalnızca çevrimiçi etkinliklerimize uygulanır ve web sitemizi ziyaret eden ziyaretçilerle ilgili olarak onların sağladığı ve / veya StringTune.com'da toplanan bilgilere uygulanır. Bu politika, bu web sitesi dışında veya çevrimdışı toplanan bilgilere uygulanmaz.
+Gizlilik politikamız yalnızca çevrimiçi etkinliklerimize uygulanır ve web sitemizi ziyaret eden ziyaretçilerle ilgili olarak onların sağladığı ve / veya MeatCalc.com'da toplanan bilgilere uygulanır. Bu politika, bu web sitesi dışında veya çevrimdışı toplanan bilgilere uygulanmaz.
 
 ## İzin
 

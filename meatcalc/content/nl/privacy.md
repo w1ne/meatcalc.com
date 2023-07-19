@@ -7,9 +7,9 @@ menu:
     weight: 1
 ---
 
-# Privacybeleid van StringTune.com
+# Privacybeleid van MeatCalc.com
 
-Bij StringTune.com, beschikbaar op [https://www.StringTune.com/](https://www.StringTune.com/), is een van onze belangrijkste prioriteiten de privacy van onze gasten. Dit gegevensbeschermingsdocument bevat de soorten informatie die wordt verzameld en geregistreerd door StringTune.com en een uitleg over het gebruik ervan.
+Bij MeatCalc.com, beschikbaar op [https://www.MeatCalc.com/](https://www.MeatCalc.com/), is een van onze belangrijkste prioriteiten de privacy van onze gasten. Dit gegevensbeschermingsdocument bevat de soorten informatie die wordt verzameld en geregistreerd door MeatCalc.com en een uitleg over het gebruik ervan.
 
 Als u vragen heeft over dit privacybeleid, aarzel dan niet om contact met ons op te nemen: stringtune.online [at] gmail.com
 
@@ -17,14 +17,14 @@ Als u vragen heeft over dit privacybeleid, aarzel dan niet om contact met ons op
 
 Wij zijn de beheerder van uw persoonlijke gegevens.
 
-De wettelijke basis van StringTune.com voor het verzamelen en gebruiken van de persoonlijke gegevens zoals beschreven in dit Privacybeleid, hangt af van de persoonlijke gegevens die we verzamelen en de specifieke context waarin we de informatie verzamelen:
+De wettelijke basis van MeatCalc.com voor het verzamelen en gebruiken van de persoonlijke gegevens zoals beschreven in dit Privacybeleid, hangt af van de persoonlijke gegevens die we verzamelen en de specifieke context waarin we de informatie verzamelen:
 
-- StringTune.com moet een contract met u sluiten
-- U heeft StringTune.com toestemming gegeven om persoonlijke gegevens te gebruiken
-- Het gebruik van uw persoonlijke gegevens is in het legitieme belang van StringTune.com
-- StringTune.com moet voldoen aan alle wettelijke vereisten
+- MeatCalc.com moet een contract met u sluiten
+- U heeft MeatCalc.com toestemming gegeven om persoonlijke gegevens te gebruiken
+- Het gebruik van uw persoonlijke gegevens is in het legitieme belang van MeatCalc.com
+- MeatCalc.com moet voldoen aan alle wettelijke vereisten
 
-StringTune.com bewaart uw persoonlijke gegevens alleen zolang als nodig is voor de doeleinden zoals vermeld in dit gegevensbeschermingsdocument. We zullen uw gegevens alleen bewaren en gebruiken voor zover dit nodig is om aan onze wettelijke verplichtingen te voldoen, om geschillen te regelen en om onze richtlijnen af te dwingen.
+MeatCalc.com bewaart uw persoonlijke gegevens alleen zolang als nodig is voor de doeleinden zoals vermeld in dit gegevensbeschermingsdocument. We zullen uw gegevens alleen bewaren en gebruiken voor zover dit nodig is om aan onze wettelijke verplichtingen te voldoen, om geschillen te regelen en om onze richtlijnen af te dwingen.
 
 Als u zich in de Europese Economische Ruimte (EER) bevindt, heeft u bepaalde rechten op het gebied van gegevensbescherming. Als u wilt weten welke persoonlijke gegevens over u door ons worden bewaard en als u ze uit onze systemen wilt verwijderen, neem dan contact met ons op: stringtune.online [at] gmail.com
 
@@ -41,7 +41,7 @@ Gebruikers kunnen zich op elk moment afmelden voor gepersonaliseerde advertentie
 
 ## Logbestanden
 
-StringTune.com volgt de standaardprocedures voor het gebruik van logbestanden. Deze bestanden registreren gebruikers wanneer ze websites bezoeken. Alle hostingbedrijven doen dit en dit maakt deel uit van de hosting- en analyseservices. De informatie die wordt verzameld in de logbestanden omvat Internet Protocol (IP) adressen, browsertype, Internet Service Provider (ISP), datum- en tijdstempels, verwijzende / uitgangspagina's en mogelijk het aantal klikken. Deze gegevens zijn niet gekoppeld aan informatie die u persoonlijk kan identificeren. Het doel van de informatie is het analyseren van trends, het beheren van de site, het volgen van het verkeer van gebruikers op de site en het verzamelen van demografische informatie.
+MeatCalc.com volgt de standaardprocedures voor het gebruik van logbestanden. Deze bestanden registreren gebruikers wanneer ze websites bezoeken. Alle hostingbedrijven doen dit en dit maakt deel uit van de hosting- en analyseservices. De informatie die wordt verzameld in de logbestanden omvat Internet Protocol (IP) adressen, browsertype, Internet Service Provider (ISP), datum- en tijdstempels, verwijzende / uitgangspagina's en mogelijk het aantal klikken. Deze gegevens zijn niet gekoppeld aan informatie die u persoonlijk kan identificeren. Het doel van de informatie is het analyseren van trends, het beheren van de site, het volgen van het verkeer van gebruikers op de site en het verzamelen van demografische informatie.
 
 ## California Consumer Privacy Act ("CCPA")
 
@@ -49,7 +49,7 @@ Volgens de CCPA hebben Californische bewoners het recht om hun voorkeuren te ver
 
 ## Cookies en webbakens
 
-Net als elke andere website maakt StringTune.com gebruik van "cookies". Deze bestanden worden gebruikt om informatie op te slaan, waaronder de voorkeuren van bezoekers en de locatie op de pagina die de gebruiker heeft geopend of bezocht. Deze informatie wordt gebruikt om de gebruikerservaring te optimaliseren door de inhoud van onze website aan te passen op basis van het browsertype van de gebruiker en / of andere informatie.
+Net als elke andere website maakt MeatCalc.com gebruik van "cookies". Deze bestanden worden gebruikt om informatie op te slaan, waaronder de voorkeuren van bezoekers en de locatie op de pagina die de gebruiker heeft geopend of bezocht. Deze informatie wordt gebruikt om de gebruikerservaring te optimaliseren door de inhoud van onze website aan te passen op basis van het browsertype van de gebruiker en / of andere informatie.
 
 ## Google DART DoubleClick-cookie
 
@@ -57,11 +57,11 @@ Google is een externe provider op onze website. Cookiebestanden, bekend als DART
 
 ## Affiliateprogramma's
 
-StringTune.com fungeert als een Amazon Associate om een commissiepercentage te verdienen van in aanmerking komende aankopen van aanbevolen en/of gelinkte producten van onze website naar Amazon.com of enige gerelateerde Amazon-websites.
+MeatCalc.com fungeert als een Amazon Associate om een commissiepercentage te verdienen van in aanmerking komende aankopen van aanbevolen en/of gelinkte producten van onze website naar Amazon.com of enige gerelateerde Amazon-websites.
 
 ## Bepalingen inzake gegevensbescherming van derden
 
-Het privacybeleid van StringTune.com is niet van toepassing op andere adverteerders of websites. Daarom raden we u aan de relevante gegevensbeschermingsrichtlijnen van externe ad-servers te lezen voor meer gedetailleerde informatie. Dit kan hun praktijken en instructies over hoe bepaalde opties uit te schakelen, bevatten.
+Het privacybeleid van MeatCalc.com is niet van toepassing op andere adverteerders of websites. Daarom raden we u aan de relevante gegevensbeschermingsrichtlijnen van externe ad-servers te lezen voor meer gedetailleerde informatie. Dit kan hun praktijken en instructies over hoe bepaalde opties uit te schakelen, bevatten.
 
 U kunt cookies deactiveren via individuele browseropties. Meer gedetailleerde informatie over het beheren van cookies in bepaalde webbrowsers vindt u op de bijbehorende website van uw browser.
 
@@ -71,13 +71,13 @@ U kunt zich ook afmelden voor sommige gebruiken van cookies door derden voor gep
 
 Onze volgende prioriteit is het beschermen van kinderen tijdens het gebruik van internet. We moedigen ouders en voogden aan om te observeren, deel te nemen en / of te monitoren en controle uit te oefenen op hun online activiteiten.
 
-StringTune.com verzamelt niet bewust persoonlijke gegevens van kinderen onder de 13 jaar.
+MeatCalc.com verzamelt niet bewust persoonlijke gegevens van kinderen onder de 13 jaar.
 
 ## Privacybeleid voor online
 
  activiteiten alleen
 
-Ons privacybeleid is alleen van toepassing op onze online activiteiten en is van toepassing op bezoekers van onze website met betrekking tot de informatie die zij hebben verstrekt en / of verzameld op StringTune.com. Dit beleid is niet van toepassing op informatie die offline of via andere kanalen dan deze website wordt verzameld.
+Ons privacybeleid is alleen van toepassing op onze online activiteiten en is van toepassing op bezoekers van onze website met betrekking tot de informatie die zij hebben verstrekt en / of verzameld op MeatCalc.com. Dit beleid is niet van toepassing op informatie die offline of via andere kanalen dan deze website wordt verzameld.
 
 ## Toestemming
 

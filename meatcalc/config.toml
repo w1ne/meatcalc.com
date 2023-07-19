@@ -1,4 +1,4 @@
-baseURL = 'http://meatcal.com/'
+baseURL = 'http://MeatCalc.com/'
 languageCode = 'en-us'
 title = 'Meat roating time calculator'
 theme = 'viko'
@@ -14,22 +14,22 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   minifyJS = true
 
 [params]
-    author = "meatcalc.com"
+    author = "MeatCalc.com"
     description = "Roasting Time Calculator: Your Ultimate Guide to Precision Meat Cooking"
     # Needed for analytics
     facebook_app_id = "123456789"
 
 # Text that appears on the home page
 [params.home]
-  title = "meatcalc.com"
+  title = "MeatCalc.com"
   subtitle = "Roasting Time Calculator: Your Ultimate Guide to Precision Meat Cooking"
   intro = ""
 
 # Contact page and footer.
 # Also feeds the generated ld+json https://schema.org/Organization which appears on the home page
 [params.contact]
-  org_name = "meatcalc.com"
-  email = "hi@meatcalc.com"
+  org_name = "MeatCalc.com"
+  email = "hi@MeatCalc.com"
   # This appears on the contact page
   full_address = ""
   # These are used in the footer
@@ -57,7 +57,7 @@ twitter_handle = ""
 # Used for twitter:creator field in the twitter cards
 author_twitter_handle = ""
 facebook_url = ""
-feedback_url = "https://meatcalc.canny.io/"
+feedback_url = "https://MeatCalc.canny.io/"
 
 [languages]
   [languages.en]
