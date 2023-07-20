@@ -9,6 +9,18 @@
     filter: brightness(95%);
 }
 
+.button {
+    transition: transform 0.1s ease-in-out;
+}
+  
+.button:active {
+    transform: scale(0.9);
+}
+
+.button.active {
+    border-color: #b5b5b5;
+}
+
 .icon.is-small.is-right {
     position: absolute;
     right: 10px;
