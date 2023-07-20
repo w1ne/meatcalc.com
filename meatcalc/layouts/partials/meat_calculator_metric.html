@@ -1,14 +1,14 @@
 <section class="section">
     <div class="container-limited">
-        <h2 class="title is-2 has-text-centered">{{ i18n "Name" | markdownify }}</h2>
-
+        <h4 class="title is-4 has-text-centered">{{ i18n "Name" | markdownify }}</h2>
+<!--
         <div class="field has-addons is-centered">
             <div class="control">
                 <p class="subtitle is-5">{{ i18n "IntefaceQuestion" | markdownify }}</p>
             </div>
-        </div>
+        </div>-->
         
-        <div class="buttons are-large is-centered">
+        <div class="buttons are-large is-centered ">
             <button class="button meatType" onclick="setMeatType(this, 'chicken')">
                 {{ i18n "Chicken" | markdownify }}
             </button>
@@ -52,29 +52,39 @@
         </div>
         <div class="field is-horizontal">
             <div class="field-body">
-                <div class="field has-addons" style="justify-content: center; display: flex;">
+                <div class="field has-addons">
                     <p class="control">
                         <button class="button is-primary is-large" onclick="decrementWeight()">-</button>
                     </p>
-                    <p class="control is-narrow has-icons-right">
+                    <p class="control">
                         <input class="input is-primary is-large" type="number" step="0.1" id="weight" oninput="calculate()" value="1" style="text-align:center;">
-                        <span class="icon is-small is-right">
-                            <i>kg</i>
+                        <span class="is-right">
+                            <div class="select is-large">
+                        <select id="unitSelect" onchange="changeUnit()">
+                            <option value="kg">kg</option>
+                            <option value="lbs">lbs</option>
+                        </select>
+		        </div>
                         </span>
                     </p>
                     <p class="control">
                         <button class="button is-primary is-large" onclick="incrementWeight()">+</button>
                     </p>
+                            <div class="field">
+		    <div class="control">
+
+		    </div>
+		</div>
                 </div>
             </div>
         </div>
-        
-            <div class="buttons are-large is-primary is-centered">
+    <!--    
+            <div class="buttons is-primary is-centered">
                 <button class="button" onclick="changeWeight(0.5)">0.5 kg</button>
                 <button class="button" onclick="changeWeight(1)">1 kg</button>
                 <button class="button" onclick="changeWeight(1.5)">1.5 kg</button>
             </div>
-
+        -->
             <div class="field has-addons" style="display: flex; justify-content: center;">
                 <p id="result" class="title is-2"></p>
               </div>
