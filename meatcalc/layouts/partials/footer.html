@@ -35,6 +35,7 @@
                     {{ range .Site.Menus.company }}
                         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
+                    <a href="https://meatcalc.canny.io/">🐛Bugs & 💡Ideas</a>
                 </ul>
             </div>
         </div>
@@ -53,7 +54,7 @@
         <div class="columns">
             <div class="column vk-amp-column has-text-right-tablet">
                 <p class="subtitle vk-amp-subtitle is-6">
-                {{ replace "Copyright {year}, MeatCalc.com" "{year}" (now.Format "2006") }}
+                    {{ replace "Copyright {year}, MeatCalc.com" "{year}" (now.Format "2006") }}
             </div>
         </div>
     </div>
