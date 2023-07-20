@@ -44,7 +44,7 @@
 
         <div class="field has-addons is-centered">
             <div class="control">
-                <p class="subtitle is-5">What is the weight of the meat?</p>
+                <p class="subtitle is-6">What is the weight of the meat?</p>
             </div>
         </div>
         <div class="field is-horizontal">
@@ -145,6 +145,35 @@
 
     var meatType = 'chicken';
 
+    // Get the user's preferred language
+    var language = navigator.language || navigator.userLanguage;
+
+    // Use Imperial units for English language (US, UK, etc.), Metric units for others
+    var isImperial = language.startsWith('en');
+
+    // Set default unit and temperature scale
+    var defaultUnit = isImperial ? 'lbs' : 'kg';
+    var defaultTemperatureScale = isImperial ? 'F' : 'C';
+    // Change weight unit in HTML
+    document.getElementById('unitSelect').value = defaultUnit;
+
+    // Function to change units
+    function changeUnit() {
+        var unitSelect = document.getElementById('unitSelect');
+        isImperial = (unitSelect.options[unitSelect.selectedIndex].value == 'lbs');
+        defaultTemperatureScale = isImperial ? 'F' : 'C'; 
+        calculate();
+    }
+
+    // Function to convert weight to kg if necessary
+    function getWeightInKg() {
+        var weight = parseFloat(document.getElementById('weight').value);
+        if (isImperial) {
+            weight *= 0.453592; // Convert lbs to kg
+        }
+        return weight;
+    }
+
     function setMeatType(button, type) {
         meatType = type;
 
@@ -161,7 +190,7 @@
     }
 
     function calculate() {
-        var weight = parseFloat(document.getElementById('weight').value);
+        var weight = getWeightInKg();
         if (isNaN(weight)) {
             return;
         }
@@ -170,17 +199,24 @@
         var cookingTime = cookingTimesPerKg[meatType];
         var totalTime = Math.round(cookingTime * weight);
 
-        document.getElementById('result').innerHTML = 'Cooking time:<br>' + totalTime + ' minutes at ' + temperature + '°C';
-        
-        // Hide all nutrition divs
-        var nutritionDivs = document.getElementsByClassName('nutritionInfo');
-        for (var i = 0; i < nutritionDivs.length; i++) {
-            nutritionDivs[i].style.display = 'none';
+        // Adjust temperature for Fahrenheit if necessary
+        if (isImperial) {
+            temperature = Math.round(temperature * 9 / 5 + 32);
         }
 
+        document.getElementById('result').innerHTML = 'Cooking time:<br>' + totalTime + ' minutes at ' + temperature + '°' + defaultTemperatureScale;
+
+
+        
+        // Hide all nutrition divs
+        //var nutritionDivs = document.getElementsByClassName('nutritionInfo');
+        //for (var i = 0; i < nutritionDivs.length; i++) {
+        //    nutritionDivs[i].style.display = 'none';
+        // }
+
         // Show nutrition div for the selected meat type
-        var nutritionDiv = document.getElementById(meatType + 'Nutrition');
-        nutritionDiv.style.display = 'block';
+        //var nutritionDiv = document.getElementById(meatType + 'Nutrition');
+        //nutritionDiv.style.display = 'block';
     }
 
     function incrementWeight() {
@@ -210,6 +246,7 @@
         document.getElementById('weight').value = w.toFixed(1);
         calculate();
     }
+    
 
     // Set initial values
     setMeatType(document.getElementsByClassName('meatType')[0], 'chicken');
