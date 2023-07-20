@@ -7,6 +7,12 @@ other = "What type of meat are you cooking?"
 [InterfaceWeight]
 other = "Etin ağırlığı ne kadar?"
 
+[cooking_time]
+other = "Pişirme süresi:"
+
+[minutes_at]
+other = "dakika, sıcaklık"
+
 [Chicken] 
   other = "🐔 Chicken"
 [Beef] 

@@ -7,6 +7,12 @@ other = "¿Qué tipo de carne estás cocinando?"
 [InterfaceWeight]
 other = "¿Cuál es el peso de la carne?"
 
+[cooking_time]
+other = "Tiempo de cocción:"
+
+[minutes_at]
+other = "minutos a"
+
 [Chicken] 
   otros = "🐔 Pollo"
 [Beef] 

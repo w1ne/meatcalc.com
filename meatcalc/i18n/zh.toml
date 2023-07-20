@@ -7,6 +7,12 @@ other = "你正在烹饪什么类型的肉？"
 [InterfaceWeight]
 other = "肉的重量是多少？"
 
+[cooking_time]
+other = "烹饪时间:"
+
+[minutes_at]
+other = "分钟，温度为"
+
 [Chicken] 
   other = "🐔 鸡"
 [Beef] 

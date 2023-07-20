@@ -7,6 +7,13 @@ other = "What type of meat are you cooking?"
 [InterfaceWeight]
 other = "Яка вага м'яса?"
 
+[cooking_time]
+other = "Час приготування:"
+
+[minutes_at]
+other = "хвилин при"
+
+
 [Chicken] 
   other = "🐔 Chicken"
 [Beef] 

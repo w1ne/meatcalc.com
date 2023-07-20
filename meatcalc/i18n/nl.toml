@@ -7,6 +7,12 @@ other = "Welk soort vlees gaat u bereiden?"
 [InterfaceWeight]
 other = "Wat is het gewicht van het vlees?"
 
+[cooking_time]
+other = "Kooktijd:"
+
+[minutes_at]
+other = "minuten op"
+
 [Chicken] 
   other = "🐔 Kip"
 [Beef] 

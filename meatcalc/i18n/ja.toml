@@ -7,6 +7,12 @@ other = "何の肉を料理していますか？"
 [InterfaceWeight]
 other = "肉の重さは何ですか？"
 
+[cooking_time]
+other = "調理時間:"
+
+[minutes_at]
+other = "分、温度"
+
 [Chicken] 
   other = "🐔 チキン"
 [Beef] 

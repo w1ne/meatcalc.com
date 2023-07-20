@@ -83,7 +83,12 @@
             </div>
         -->
             <div class="field has-addons" style="display: flex; justify-content: center;">
-                <p id="result" class="title is-2"></p>
+                <div id="result" class="title is-2">
+                <span id="result-text">{{ i18n "cooking_time" }}</span>
+                <br>
+                <span id="result-time"></span> <span id="result-time-text">{{ i18n "minutes_at" }}</span> 
+                <span id="result-temperature"></span>°<span id="result-temperature-scale"></span>
+            </div>
               </div>
 
 <!--       <div id="chickenNutrition" class="nutritionInfo">
@@ -204,8 +209,9 @@
             temperature = Math.round(temperature * 9 / 5 + 32);
         }
 
-        document.getElementById('result').innerHTML = 'Cooking time:<br>' + totalTime + ' minutes at ' + temperature + '°' + defaultTemperatureScale;
-
+        document.getElementById('result-time').innerText = totalTime;
+        document.getElementById('result-temperature').innerText = temperature;
+        document.getElementById('result-temperature-scale').innerText = defaultTemperatureScale;
 
         
         // Hide all nutrition divs

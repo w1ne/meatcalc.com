@@ -7,6 +7,12 @@ other = "Quel type de viande cuisinez-vous?"
 [InterfaceWeight]
 other = "Quel est le poids de la viande?"
 
+[cooking_time]
+other = "Temps de cuisson:"
+
+[minutes_at]
+other = "minutes à"
+
 [Chicken] 
   other = "🐔 Poulet"
 [Beef] 

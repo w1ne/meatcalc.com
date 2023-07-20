@@ -7,6 +7,12 @@ other = "Hvilken type kjøtt skal du tilberede?"
 [InterfaceWeight]
 other = "Hva er vekten på kjøttet?"
 
+[cooking_time]
+other = "Steketid:"
+
+[minutes_at]
+other = "minutter på"
+
 [Chicken] 
   other = "🐔 Kylling"
 [Beef] 

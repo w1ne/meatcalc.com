@@ -7,6 +7,12 @@ other = "Millaista lihaa keität?"
 [InterfaceWeight]
 fi = "Mikä on lihan paino?"
 
+[cooking_time]
+other = "Kypsennysaika:"
+
+[minutes_at]
+other = "minuuttia lämpötilassa"
+
 [Chicken]
    muut = "🐔 Kana"
 [Beef]

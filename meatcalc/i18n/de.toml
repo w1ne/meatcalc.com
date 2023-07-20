@@ -7,6 +7,12 @@ other = "Wie schwer ist das Fleisch?"
 [IntefaceQuestion]
 other = "Welche Art von Fleisch kochen Sie?"
 
+[cooking_time]
+other = "Kochzeit:"
+
+[minutes_at]
+other = "Minuten bei"
+
 [Chicken] 
   other = "🐔 Huhn"
 [Beef] 

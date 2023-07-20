@@ -7,6 +7,12 @@ other = "어떤 유형의 고기를 조리하시나요?"
 [InterfaceWeight]
 other = "고기의 무게는 얼마입니까?"
 
+[cooking_time]
+other = "조리 시간:"
+
+[minutes_at]
+other = "분, 온도는"
+
 [Chicken] 
   other = "🐔 치킨"
 [Beef] 

@@ -7,6 +7,12 @@ other = "Jaki rodzaj mięsa pieczesz?"
 [InterfaceWeight]
 other = "Jaka jest waga mięsa?"
 
+[cooking_time]
+other = "Czas gotowania:"
+
+[minutes_at]
+other = "minut przy"
+
 [Chicken] 
   other = "🐔 Kurczak"
 [Beef] 
