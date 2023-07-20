@@ -4,6 +4,9 @@ other = "Calculadora de tiempo de tostado"
 [IntefaceQuestion]
 other = "¿Qué tipo de carne estás cocinando?"
 
+[InterfaceWeight]
+other = "¿Cuál es el peso de la carne?"
+
 [Chicken] 
   otros = "🐔 Pollo"
 [Beef] 

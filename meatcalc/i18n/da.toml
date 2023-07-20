@@ -4,6 +4,9 @@ other = "Stegetidsberegner"
 [IntefaceQuestion]
 other = "Hvilken type kød tilbereder du?"
 
+[InterfaceWeight]
+other = "Hvad er kødets vægt?"
+
 [Chicken] 
   other = "🐔 Kylling"
 [Beef] 

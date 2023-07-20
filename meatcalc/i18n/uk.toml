@@ -4,6 +4,9 @@ other = "Roasting Time Calculator"
 [IntefaceQuestion]
 other = "What type of meat are you cooking?"
 
+[InterfaceWeight]
+other = "Яка вага м'яса?"
+
 [Chicken] 
   other = "🐔 Chicken"
 [Beef] 

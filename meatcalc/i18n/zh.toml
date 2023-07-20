@@ -1,88 +1,91 @@
 [Name]
-other = "Roasting Time Calculator"
+other = "烘烤时间计算器"
 
 [IntefaceQuestion]
-other = "What type of meat are you cooking?"
+other = "你正在烹饪什么类型的肉？"
+
+[InterfaceWeight]
+other = "肉的重量是多少？"
 
 [Chicken] 
-  other = "🐔 Chicken"
+  other = "🐔 鸡"
 [Beef] 
-  other = "🐄 Beef"
+  other = "🐄 牛肉"
 [Pork] 
-  other =  "🐖 Pork"
+  other =  "🐖 猪肉"
 [Lamb] 
-  other =  "🐑 Lamb"
+  other =  "🐑 羊肉"
 [Fish] 
-  other = "🐟 Fish"
+  other = "🐟 鱼"
 [Mutton]
-  other = "🐏 Mutton"
+  other = "🐏 羊肉"
 [Turkey] 
-  other = "🦃 Turkey"
+  other = "🦃 火鸡"
 [Duck] 
-  other = "🦆 Duck"
+  other = "🦆 鸭"
 [Goat] 
-  other = "🐐 Goat"
+  other = "🐐 山羊肉"
 [Venison] 
-  other =  "🦌 Venison"
+  other =  "🦌 鹿肉"
 [Rabbit]
-  other = "🐇 Rabbit"
+  other = "🐇 兔肉"
 
 [Intro]
 other = """
-# Your Guide to Perfect Roasting Times: How Long Should I Roast?
+# 完美烘烤时间的指南：我应该烤多久？
 
-Roasting is a quintessential cooking technique that brings out the rich, deep flavors in meat. However, finding the perfect roasting time can be hard. Our interactive Roasting Time Calculator is here to guide you on your journey to a delectable roast.
+烘烤是一种典型的烹饪技术，可以激发出肉的浓郁，深沉的风味。然而，找到完美的烘烤时间可能很难。我们的互动烘烤时间计算器在这里，引导您一步步烹饪出美味的烤肉。
 
-## Roasting Time Examples
+## 烘烤时间示例
 
-### 🐔 Chicken
+### 🐔 鸡
 
-Roasting a chicken at 180°C is an effective method to achieve a juicy interior and a crisp skin. The recommended roasting time is approximately 44 minutes per kilogram. To ensure the chicken is fully cooked, insert a meat thermometer into the thickest part of the bird, avoiding the bone. The internal temperature should reach 74°C. Don't forget to let the chicken rest for about 15 minutes before carving to allow the juices to redistribute.
+在180°C的温度下烘烤鸡是一种有效的方法，可以得到多汁的内部和脆皮。推荐的烘烤时间是每千克约44分钟。为了确保鸡完全熟透，将肉温计插入鸡的最厚部分，避开骨头。内部温度应达到74°C。别忘了在切之前让鸡休息大约15分钟，以让汁液重新分布。
 
-### 🐄 Beef
+### 🐄 牛肉
 
-To roast beef, preheat your oven to 200°C. A good rule of thumb is to cook it for approximately 60 minutes per kilogram for a medium roast. Of course, this can be adjusted if you prefer your beef more rare or well-done. Use a meat thermometer and aim for an internal temperature of 63°C for medium-rare, 71°C for medium, and 77°C for well-done. Allow the beef to rest for 15-20 minutes before carving to maintain juiciness.
+要烤牛肉，预热烤箱至200°C。一个好的经验法则是每千克烤约60分钟，适用于中度烘烤。当然，如果你喜欢你的牛肉更稀疏或熟透，可以进行调整。使用肉温计并针对中度偏生的63°C，中度的71°C和熟透的77°C。在切之前让牛肉休息15-20分钟，以保持其多汁。
 
-### 🐖 Pork
+### 🐖 猪肉
 
-For roasting pork, 180°C is a standard temperature. Given the variety of cuts, an approximate roasting time of 90 minutes per kilogram can serve as a guideline. The pork should be cooked until the internal temperature reaches 71°C. Allow the pork to rest for 10-15 minutes before slicing to ensure the meat remains moist.
+对于烤猪肉，180°C是一个标准的温度。鉴于猪肉的各种切割方式，每千克约90分钟的烘烤时间可以作为指南。猪肉应烹煮至内部温度达到71°C。在切片之前，让猪肉休息10-15分钟，以确保肉质保持湿润。
 
-### 🐑 Lamb
+### 🐑 羊肉
 
-For a tender, succulent roast lamb, preheat your oven to 200°C. As a general rule, aim for approximately 60 minutes of roasting time per kilogram. Adjust your cooking time depending on how well-done you prefer your lamb. Always let the lamb rest for 15-20 minutes before carving.
+为了得到嫩滑、多汁的烤羊肉，预热烤箱至200°C。一般来说，每千克的烘烤时间约为60分钟。根据你对羊肉的烹煮程度的喜好，调整你的烹饪时间。总是让羊肉在切之前休息15-20分钟。
 
-### 🐟 Fish
+### 🐟 鱼
 
-Fish can be roasted effectively at 180°C. However, cooking time can vary greatly depending on the type and thickness of the fish. Generally, roasting for about 25 minutes per kilogram can work for many types. The fish should flake easily with a fork when it's done.
+鱼可以在180°C的温度下有效地烘烤。然而，烹饪时间可以根据鱼的种类和厚度大大变化。一般来说，每千克烘烤大约25分钟可以适用于许多种类。鱼应该用叉子轻轻剥开。
 
-### 🐏 Mutton
+### 🐏 羊肉
 
-Mutton can be a bit trickier as it often comes from older sheep, which can make the meat tougher. A slower roast at 200°C for about 45 minutes per kilogram can help break down the tougher muscle fibers and result in a tender roast.
+羊肉可能有点棘手，因为它通常来自年纪较大的羊，这会使肉更硬。在200°C的温度下慢慢烤大约每千克45分钟可以帮助分解更硬的肌肉纤维，得到嫩滑的烤肉。
 
-### 🦃 Turkey
+### 🦃 火鸡
 
-For a deliciously roasted turkey, use an oven preheated to 180°C. On average, you should roast your turkey for about 40 minutes per kilogram. However, the size and stuffing of the turkey can affect the cooking time. Always make sure your turkey reaches an internal temperature of 74°C before removing it from the oven.
+要做出美味的烤火鸡，使用预热至180°C的烤箱。平均来说，你应该每千克烤约40分钟。然而，火鸡的大小和填充物可能会影响烹饪时间。总是确保你的火鸡在从烤箱中取出前达到74°C的内部温度。
 
-### 🦆 Duck
+### 🦆 鸭
 
-To achieve a well-cooked duck with a crispy skin, roast at a higher temperature of 200°C. The general roasting time might be around 50 minutes per kilogram, but this could vary greatly depending on the size of the duck. Always check the internal temperature, aiming for 74°C for fully cooked duck, though some prefer it slightly pink in the middle.
+要得到熟透且皮脆的鸭子，需要在200°C的温度下烘烤。一般的烘烤时间可能是每千克约50分钟，但这可能会因鸭子的大小而大不相同。总是检查内部温度，瞄准74°C，这样的鸭子熟透，尽管有些人喜欢中间略带粉红色。
 
-### 🐐 Goat
+### 🐐 山羊肉
 
-Goat meat can vary greatly in tenderness and flavor depending on the age and diet of the animal. As a starting point, you can roast it at 180°C for about 75 minutes per kilogram. Adjust cooking time and temperature as needed depending on the specific cut and desired level of doneness.
+山羊肉的嫩度和味道可以根据动物的年龄和饮食大大变化。作为起点，你可以在180°C的温度下每千克烤约75分钟。根据具体的切割和期望的熟透程度，调整烹饪时间和温度。
 
-### 🦌 Venison
+### 🦌 鹿肉
 
-Given its lean nature, venison can dry out if overcooked. To avoid this, roast it at 180°C for about 55 minutes per kilogram for a medium-rare roast. Use a meat thermometer to ensure the internal temperature is around 63°C for medium-rare.
+鉴于其精瘦的特性，鹿肉如果煮过头就会变干。为了避免这个问题，在180°C的温度下每千克烤约55分钟，得到一份中度偏生的烤肉。使用肉温计确保内部温度大约是63°C，适合中度偏生的鹿肉。
 
-### 🐇 Rabbit
+### 🐇 兔肉
 
-Rabbit is a lean meat, much like venison, and shouldn't be overcooked. A good starting point is roasting at 180°C for about 40 minutes per kilogram. Always check for an internal temperature of at least 71°C to ensure the meat is safe to consume.
+兔肉是一种精瘦肉，和鹿肉很相似，不应该煮得过火。一个好的起点是在180°C的温度下每千克烤约40分钟。总是检查内部温度至少达到71°C，以确保肉是安全可食的。
 
-While our calculator provides a reliable guideline, it's important to remember that it's an approximation tool. Factors such as oven performance, the accuracy of temperature settings, and how you like your meat cooked can influence the actual roasting time. Therefore, it's always a good idea to keep a close eye on your roast, especially when you're cooking it for the first time.
+虽然我们的计算器提供了可靠的指南，但重要的是要记住，它是一个近似工具。如烤箱性能，温度设置的准确性，以及你如何喜欢你的肉烹饪都会影响实际的烘烤时间。因此，特别是在你第一次烹饪时，始终密切关注你的烤肉是一个好主意。
 
-What's more, our Roasting Time Calculator also provides nutritional information for each type of meat, helping you understand the nutritional value of your chosen roast. So, whether you're a novice cook or a seasoned chef, our calculator is designed to help you master the art of roasting. Happy roasting!
+更重要的是，我们的烘烤时间计算器还提供每种肉类的营养信息，帮助你了解你选择的烤肉的营养价值。因此，无论你是新手厨师还是经验丰富的厨师，我们的计算器都是为了帮助你掌握烘烤的艺术。愉快的烘烤!
 """ 
 
 [install_app]
-  other = "Install App"
+  other = "安装应用"

@@ -4,6 +4,9 @@ other = "Paahtoaikalaskin"
 [IntefaceQuestion]
 other = "Millaista lihaa keität?"
 
+[InterfaceWeight]
+fi = "Mikä on lihan paino?"
+
 [Chicken]
    muut = "🐔 Kana"
 [Beef]

@@ -4,6 +4,9 @@ other = "Braad Tijd Calculator"
 [IntefaceQuestion]
 other = "Welk soort vlees gaat u bereiden?"
 
+[InterfaceWeight]
+other = "Wat is het gewicht van het vlees?"
+
 [Chicken] 
   other = "🐔 Kip"
 [Beef] 

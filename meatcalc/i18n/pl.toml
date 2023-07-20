@@ -4,6 +4,9 @@ other = "Kalkulator Czasu Pieczenia"
 [IntefaceQuestion]
 other = "Jaki rodzaj mięsa pieczesz?"
 
+[InterfaceWeight]
+other = "Jaka jest waga mięsa?"
+
 [Chicken] 
   other = "🐔 Kurczak"
 [Beef] 

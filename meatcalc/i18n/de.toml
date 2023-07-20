@@ -1,8 +1,11 @@
 [Name]
 other = "Röstzeitrechner"
 
+[InterfaceWeight]
+other = "Wie schwer ist das Fleisch?"
+
 [IntefaceQuestion]
-other = "Welche Fleischsorte kochen Sie?"
+other = "Welche Art von Fleisch kochen Sie?"
 
 [Chicken] 
   other = "🐔 Huhn"

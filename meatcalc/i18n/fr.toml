@@ -4,6 +4,9 @@ other = "Calculateur de Temps de Rôtissage"
 [IntefaceQuestion]
 other = "Quel type de viande cuisinez-vous?"
 
+[InterfaceWeight]
+other = "Quel est le poids de la viande?"
+
 [Chicken] 
   other = "🐔 Poulet"
 [Beef] 

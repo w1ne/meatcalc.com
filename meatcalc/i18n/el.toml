@@ -1,8 +1,11 @@
 [Name]
 other = "Υπολογιστής χρόνου ψησίματος"
 
+[InterfaceWeight]
+other = "Ποιο είναι το βάρος του κρέατος;"
+
 [IntefaceQuestion]
-other = "Τι είδους κρέας μαγειρεύετε?"
+other = "Τι είδος κρέατος μαγειρεύετε;"
 
 [Chicken] 
   other = "🐔 Huhn"

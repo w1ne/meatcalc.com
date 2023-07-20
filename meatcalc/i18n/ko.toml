@@ -4,6 +4,9 @@ other = "구이 시간 계산기"
 [IntefaceQuestion]
 other = "어떤 유형의 고기를 조리하시나요?"
 
+[InterfaceWeight]
+other = "고기의 무게는 얼마입니까?"
+
 [Chicken] 
   other = "🐔 치킨"
 [Beef] 
@@ -82,6 +85,25 @@ other = """
 토끼는 사슴고기처럼 가늘고, 과도하게 요리해서는 안됩니다. 시작점으로는 180°C에서 킬로그램당 약 40분 동안 구하는 것이 좋습니다. 고기가 안전하게 섭취할 수 있도록 항상 최소 71°C의 내부 온도를 확인하세요.
 
 계산기가 신뢰할 수 있는 지침을 제공하지만, 이는 근사치 도구라는 것을 기억하세요. 오븐의 성능, 온도 설정의 정확성, 그리고 고기를 어떻게 조리하길 선호하는지에 따라 실제 구이 시간이 달라질 수 있습니다. 따라서 특히 처음 조리할 때는 항상 근접한 구이를 주의 깊게 관찰하는 것이 좋습니다.
+[InterfaceWeight]
+en = "What is the weight of the meat?"
+nl = "Wat is het gewicht van het vlees?"
+de = "Wie schwer ist das Fleisch?"
+it = "Qual è il peso della carne?"
+pt = "Qual é o peso da carne?"
+es = "¿Cuál es el peso de la carne?"
+fr = "Quel est le poids de la viande?"
+pl = "Jaka jest waga mięsa?"
+tr = "Etin ağırlığı ne kadar?"
+fi = "Mikä on lihan paino?"
+da = "Hvad er kødets vægt?"
+no = "Hva er vekten på kjøttet?"
+sv = "Vad är vikt på köttet?"
+el = "Ποιο είναι το βάρος του κρέατος;"
+uk = "Яка вага м'яса?"
+zh = "肉的重量是多少？"
+ja = "肉の重さは何ですか？"
+ko = "고기의 무게는 얼마입니까?"
 
 더욱이, 구이 시간 계산기는 각 유형의 고기에 대한 영양 정보도 제공하여 선택한 구이의 영양가를 이해하는 데 도움을 줍니다. 따라서 신참 요리사든 경험 많은 요리사든, 계산기는 구이의 예술을 마스터하는 데 도움이 되도록 설계되었습니다. 즐거운 구이 시간 되세요!
 """ 
